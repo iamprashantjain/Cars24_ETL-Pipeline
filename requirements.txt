@@ -1,5 +1,5 @@
-requests==2.28.1
-pandas==1.5.3
+requests
+pandas
 apache-airflow==2.5.1
 numpy
 beautifulsoup4

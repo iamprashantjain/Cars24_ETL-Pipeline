@@ -16,3 +16,8 @@ cars24_data_etl_pipeline/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
+
+
+**Remove All Images**
+`docker images`
+`for /f %i in ('docker images -q') do docker rmi -f %i`
