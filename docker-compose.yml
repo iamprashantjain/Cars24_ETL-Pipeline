@@ -1,88 +1,58 @@
-version: '3'
+version: '3.7'
 
 services:
+  airflow:
+    build:
+      context: ./ 
+      dockerfile: Dockerfile
+    image: airflowimage
+    container_name: cars24_etl_pipeline
+    ports:
+      - "8080:8080"      # Expose Airflow Web UI
+    environment:
+      - AIRFLOW_ENV=production
+      - AIRFLOW_HOME=/app/airflow
+    networks:
+      - my_network
+    volumes:
+      - "./dags:/app/airflow/dags"
+      - "./scripts:/app/scripts"
+      - "./output:/app/output"
+      - "./logs:/app/airflow/logs"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 1m
+      timeout: 10s
+      retries: 3
+    depends_on:
+      - postgres
+      - redis
+
   postgres:
     image: postgres:13
+    container_name: postgres
     environment:
-      - POSTGRES_USER=airflow
-      - POSTGRES_PASSWORD=airflow
-      - POSTGRES_DB=airflow
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    networks:
+      - my_network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-    networks:
-      - airflow_network
 
   redis:
-    image: redis:6
+    image: redis:alpine
+    container_name: redis
+    networks:
+      - my_network
     ports:
       - "6379:6379"
-    networks:
-      - airflow_network
-
-  airflow-webserver:
-    build: .  # This will build the image using the Dockerfile
-    environment:
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
-      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
-      - AIRFLOW__CELERY__RESULT_BACKEND=redis://redis:6379/0
-    ports:
-      - "8080:8080"
-    networks:
-      - airflow_network
-    depends_on:
-      - postgres
-      - redis
-    volumes:
-      - ./dags:/opt/airflow/dags
-      - ./scripts:/opt/airflow/scripts
-      - ./output:/opt/airflow/output  # Mount a local directory for output
-    command: >
-      bash -c "
-        airflow db init && 
-        airflow webserver
-      "
-
-  airflow-scheduler:
-    build: .  # This will build the image using the Dockerfile
-    environment:
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
-      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
-      - AIRFLOW__CELERY__RESULT_BACKEND=redis://redis:6379/0
-    networks:
-      - airflow_network
-    depends_on:
-      - postgres
-      - redis
-    volumes:
-      - ./dags:/opt/airflow/dags
-      - ./scripts:/opt/airflow/scripts
-      - ./output:/opt/airflow/output  # Mount a local directory for output
-    command: >
-      bash -c "
-        airflow db init && 
-        airflow scheduler
-      "
-
-  airflow-worker:
-    build: .  # This will build the image using the Dockerfile
-    environment:
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
-      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
-      - AIRFLOW__CELERY__RESULT_BACKEND=redis://redis:6379/0
-    networks:
-      - airflow_network
-    depends_on:
-      - postgres
-      - redis
-    volumes:
-      - ./dags:/opt/airflow/dags
-      - ./scripts:/opt/airflow/scripts
-      - ./output:/opt/airflow/output  # Mount a local directory for output
-    command: ["airflow", "worker"]
 
 networks:
-  airflow_network:
+  my_network:
     driver: bridge
+
+volumes:
+  postgres_data:

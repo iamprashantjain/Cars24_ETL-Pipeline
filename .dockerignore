@@ -1,0 +1,9 @@
+.git
+logs
+venv
+node_modules
+*.pyc
+*.pyo
+.env
+README.md
+

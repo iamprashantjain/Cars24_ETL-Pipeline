@@ -1,5 +1,4 @@
 requests
 pandas
-apache-airflow==2.5.1
 numpy
 beautifulsoup4

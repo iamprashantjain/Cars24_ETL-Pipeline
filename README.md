@@ -21,3 +21,9 @@ cars24_data_etl_pipeline/
 **Remove All Images**
 `docker images`
 `for /f %i in ('docker images -q') do docker rmi -f %i`
+
+- docker system prune -a --volumes
+- docker system prune
+
+
+- docker-compose build --no-cache && docker-compose up
