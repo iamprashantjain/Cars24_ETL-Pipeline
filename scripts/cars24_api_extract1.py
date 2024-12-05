@@ -102,7 +102,7 @@ def run_extract_stage_1(city_ids):
     logging.info("Appointment ID extraction finished")
     
     # Save the result to an Excel file
-    output_file_path = '/opt/airflow/output/cars24_stage1_output.xlsx'
+    output_file_path = '/app/output/cars24_stage1_output.xlsx'
     final_df.to_excel(output_file_path, index=False)
     logging.info(f"Data saved to {output_file_path}")
     return final_df  # Return the DataFrame

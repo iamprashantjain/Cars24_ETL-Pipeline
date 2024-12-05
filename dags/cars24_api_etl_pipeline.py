@@ -40,7 +40,8 @@ with DAG(
     # Task 2: Run Extract Stage 2 (depends on Task 1)
     def run_extract_stage_2_task():
         # Read the appointment IDs from the output of Extract Stage 1
-        input_file_path = '/opt/airflow/output/cars24_stage1_output.xlsx'
+        # input_file_path = '/opt/airflow/output/cars24_stage1_output.xlsx'
+        input_file_path = '/app/output/cars24_stage1_output.xlsx'
         try:
             temp_df = pd.read_excel(input_file_path)
             appointment_ids = temp_df['appointmentId'].tolist()
