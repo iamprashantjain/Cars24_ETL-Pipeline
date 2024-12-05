@@ -1,10 +1,47 @@
+# from airflow import DAG
+# from airflow.operators.python import PythonOperator
+# from datetime import datetime, timedelta
+# import logging
+# import pandas as pd
+# from scripts.main import run_extract_stage_1_and_2
+
+# default_args = {
+#     'owner': 'airflow',
+#     'retries': 1,
+#     'retry_delay': timedelta(minutes=5),
+#     'start_date': datetime(2024, 12, 5),
+# }
+
+# # Define the DAG
+# with DAG(
+#     'cars24_etl_pipeline',
+#     default_args=default_args,
+#     description='Cars24 API ETL Pipeline',
+#     schedule_interval=None,
+#     catchup=False,  # This avoids backfilling, meaning only future runs will be triggered
+# ) as dag:
+
+
+#     def run_combined_extract_task():
+#         logging.info("Starting combined Extract Stage 1 and Stage 2")
+#         run_extract_stage_1_and_2()
+
+#     combined_extract_task = PythonOperator(
+#         task_id='combined_extract',
+#         python_callable=run_combined_extract_task,
+#         retries=3,
+#         retry_delay=timedelta(minutes=5),
+#         dag=dag,
+#     )
+
+
+
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 import logging
-import pandas as pd
-from scripts.cars24_api_extract1 import run_extract_stage_1
-from scripts.cars24_api_extract2 import run_extract_stage_2
+from scripts.main import run_extract_stage_1_and_2
 
 # Default arguments for Airflow tasks
 default_args = {
@@ -23,41 +60,26 @@ with DAG(
     catchup=False,  # This avoids backfilling, meaning only future runs will be triggered
 ) as dag:
 
-    # Task 1: Run Extract Stage 1
-    def run_extract_stage_1_task():
-        city_ids = range(150, 200)  # Modify the range as needed, based on your data
-        logging.info(f"Starting Extract Stage 1 with city IDs: {city_ids}")
-        return run_extract_stage_1(city_ids)
+    # Task 1: Run combined Extract Stage 1 and Stage 2
+    def run_combined_extract_task():
+        logging.info("Starting combined Extract Stage 1 and Stage 2")
+        run_extract_stage_1_and_2()
 
-    extract_stage_1_task = PythonOperator(
-        task_id='extract_stage_1',
-        python_callable=run_extract_stage_1_task,
+    combined_extract_task = PythonOperator(
+        task_id='combined_extract',
+        python_callable=run_combined_extract_task,
         retries=3,  # Adjust retry logic if needed
         retry_delay=timedelta(minutes=5),
         dag=dag,
     )
 
-    # Task 2: Run Extract Stage 2 (depends on Task 1)
-    def run_extract_stage_2_task():
-        # Read the appointment IDs from the output of Extract Stage 1
-        # input_file_path = '/opt/airflow/output/cars24_stage1_output.xlsx'
-        input_file_path = '/app/output/cars24_stage1_output.xlsx'
-        try:
-            temp_df = pd.read_excel(input_file_path)
-            appointment_ids = temp_df['appointmentId'].tolist()
-            logging.info(f"Starting Extract Stage 2 with appointment IDs: {appointment_ids}")
-            return run_extract_stage_2(appointment_ids)
-        except Exception as e:
-            logging.error(f"Error reading the file {input_file_path}: {e}")
-            raise  # This will cause the task to fail
-
-    extract_stage_2_task = PythonOperator(
-        task_id='extract_stage_2',
-        python_callable=run_extract_stage_2_task,
-        retries=3,  # Adjust retry logic if needed
-        retry_delay=timedelta(minutes=5),
+    # Task 2: Copy the output file from Docker to the local system
+    copy_file_to_local_task = BashOperator(
+        task_id='copy_file_to_local',
+        bash_command='docker cp cars24_etl_pipeline:/app/output/cars24_final_output.xlsx /output/cars24_final_output.xlsx',
+        retries=1,
         dag=dag,
     )
 
     # Define task dependencies
-    extract_stage_1_task >> extract_stage_2_task
+    combined_extract_task >> copy_file_to_local_task

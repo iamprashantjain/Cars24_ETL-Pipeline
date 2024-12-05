@@ -1,0 +1,489 @@
+[2024-12-05 23:47:33,353] 391 root - INFO - Starting Stage 1: Fetching appointment IDs
+[2024-12-05 23:47:33,825] 238 root - INFO - Error fetching data for city_id 130: Expecting value: line 1 column 1 (char 0)
+[2024-12-05 23:47:34,153] 238 root - INFO - Error fetching data for city_id 137: 'appointmentId'
+[2024-12-05 23:47:34,487] 238 root - INFO - Error fetching data for city_id 138: 'appointmentId'
+[2024-12-05 23:47:34,487] 238 root - INFO - Error fetching data for city_id 133: 'appointmentId'
+[2024-12-05 23:47:34,730] 238 root - INFO - Error fetching data for city_id 139: 'appointmentId'
+[2024-12-05 23:47:34,745] 238 root - INFO - Error fetching data for city_id 142: 'appointmentId'
+[2024-12-05 23:47:34,958] 238 root - INFO - Error fetching data for city_id 131: 'appointmentId'
+[2024-12-05 23:47:34,958] 238 root - INFO - Error fetching data for city_id 135: 'appointmentId'
+[2024-12-05 23:47:34,970] 238 root - INFO - Error fetching data for city_id 140: 'appointmentId'
+[2024-12-05 23:47:35,166] 238 root - INFO - Error fetching data for city_id 145: 'appointmentId'
+[2024-12-05 23:47:35,185] 238 root - INFO - Error fetching data for city_id 146: 'appointmentId'
+[2024-12-05 23:47:35,200] 238 root - INFO - Error fetching data for city_id 143: 'appointmentId'
+[2024-12-05 23:47:35,238] 238 root - INFO - Error fetching data for city_id 144: 'appointmentId'
+[2024-12-05 23:47:35,273] 238 root - INFO - Error fetching data for city_id 147: 'appointmentId'
+[2024-12-05 23:47:35,364] 238 root - INFO - Error fetching data for city_id 141: 'appointmentId'
+[2024-12-05 23:47:35,675] 238 root - INFO - Error fetching data for city_id 149: 'appointmentId'
+[2024-12-05 23:47:35,709] 238 root - INFO - Error fetching data for city_id 148: 'appointmentId'
+[2024-12-05 23:47:35,820] 238 root - INFO - Error fetching data for city_id 150: 'appointmentId'
+[2024-12-05 23:47:35,973] 238 root - INFO - Error fetching data for city_id 151: 'appointmentId'
+[2024-12-05 23:47:36,021] 238 root - INFO - Error fetching data for city_id 152: 'appointmentId'
+[2024-12-05 23:47:36,051] 238 root - INFO - Error fetching data for city_id 154: 'appointmentId'
+[2024-12-05 23:47:36,066] 238 root - INFO - Error fetching data for city_id 155: 'appointmentId'
+[2024-12-05 23:47:36,066] 238 root - INFO - Error fetching data for city_id 153: 'appointmentId'
+[2024-12-05 23:47:36,066] 238 root - INFO - Error fetching data for city_id 156: 'appointmentId'
+[2024-12-05 23:47:36,066] 238 root - INFO - Error fetching data for city_id 158: 'appointmentId'
+[2024-12-05 23:47:36,097] 238 root - INFO - Error fetching data for city_id 157: 'appointmentId'
+[2024-12-05 23:47:36,221] 238 root - INFO - Error fetching data for city_id 159: 'appointmentId'
+[2024-12-05 23:47:36,268] 238 root - INFO - Error fetching data for city_id 161: 'appointmentId'
+[2024-12-05 23:47:36,268] 238 root - INFO - Error fetching data for city_id 160: 'appointmentId'
+[2024-12-05 23:47:36,300] 238 root - INFO - Error fetching data for city_id 162: 'appointmentId'
+[2024-12-05 23:47:36,315] 238 root - INFO - Error fetching data for city_id 163: 'appointmentId'
+[2024-12-05 23:47:36,472] 238 root - INFO - Error fetching data for city_id 165: 'appointmentId'
+[2024-12-05 23:47:36,569] 238 root - INFO - Error fetching data for city_id 166: 'appointmentId'
+[2024-12-05 23:47:36,694] 238 root - INFO - Error fetching data for city_id 164: 'appointmentId'
+[2024-12-05 23:47:36,710] 238 root - INFO - Error fetching data for city_id 168: 'appointmentId'
+[2024-12-05 23:47:36,741] 238 root - INFO - Error fetching data for city_id 172: 'appointmentId'
+[2024-12-05 23:47:36,820] 238 root - INFO - Error fetching data for city_id 169: 'appointmentId'
+[2024-12-05 23:47:36,820] 238 root - INFO - Error fetching data for city_id 175: 'appointmentId'
+[2024-12-05 23:47:36,898] 238 root - INFO - Error fetching data for city_id 171: 'appointmentId'
+[2024-12-05 23:47:36,898] 238 root - INFO - Error fetching data for city_id 173: 'appointmentId'
+[2024-12-05 23:47:36,976] 238 root - INFO - Error fetching data for city_id 170: 'appointmentId'
+[2024-12-05 23:47:36,992] 253 root - INFO - Fetched 0 appointment IDs for city_id 161
+[2024-12-05 23:47:38,454] 253 root - INFO - Fetched 0 appointment IDs for city_id 145
+[2024-12-05 23:47:38,459] 253 root - INFO - Fetched 0 appointment IDs for city_id 131
+[2024-12-05 23:47:38,460] 253 root - INFO - Fetched 0 appointment IDs for city_id 153
+[2024-12-05 23:47:38,460] 253 root - INFO - Fetched 0 appointment IDs for city_id 139
+[2024-12-05 23:47:38,460] 253 root - INFO - Fetched 0 appointment IDs for city_id 135
+[2024-12-05 23:47:38,460] 253 root - INFO - Fetched 0 appointment IDs for city_id 149
+[2024-12-05 23:47:38,460] 253 root - INFO - Fetched 0 appointment IDs for city_id 144
+[2024-12-05 23:47:38,461] 253 root - INFO - Fetched 0 appointment IDs for city_id 137
+[2024-12-05 23:47:38,461] 253 root - INFO - Fetched 0 appointment IDs for city_id 151
+[2024-12-05 23:47:38,461] 253 root - INFO - Fetched 0 appointment IDs for city_id 146
+[2024-12-05 23:47:38,461] 253 root - INFO - Fetched 0 appointment IDs for city_id 130
+[2024-12-05 23:47:38,461] 253 root - INFO - Fetched 0 appointment IDs for city_id 159
+[2024-12-05 23:47:38,026] 238 root - INFO - Error fetching data for city_id 185: 'appointmentId'
+[2024-12-05 23:47:38,234] 238 root - INFO - Error fetching data for city_id 187: 'appointmentId'
+[2024-12-05 23:47:38,337] 238 root - INFO - Error fetching data for city_id 192: 'appointmentId'
+[2024-12-05 23:47:38,350] 238 root - INFO - Error fetching data for city_id 189: 'appointmentId'
+[2024-12-05 23:47:38,436] 238 root - INFO - Error fetching data for city_id 190: 'appointmentId'
+[2024-12-05 23:47:38,436] 238 root - INFO - Error fetching data for city_id 194: 'appointmentId'
+[2024-12-05 23:47:38,451] 238 root - INFO - Error fetching data for city_id 188: 'appointmentId'
+[2024-12-05 23:47:36,992] 238 root - INFO - Error fetching data for city_id 167: 'appointmentId'
+[2024-12-05 23:47:38,455] 238 root - INFO - Error fetching data for city_id 191: 'appointmentId'
+[2024-12-05 23:47:37,049] 238 root - INFO - Error fetching data for city_id 178: 'appointmentId'
+[2024-12-05 23:47:37,052] 238 root - INFO - Error fetching data for city_id 176: 'appointmentId'
+[2024-12-05 23:47:37,066] 238 root - INFO - Error fetching data for city_id 174: 'appointmentId'
+[2024-12-05 23:47:37,158] 238 root - INFO - Error fetching data for city_id 177: 'appointmentId'
+[2024-12-05 23:47:37,176] 238 root - INFO - Error fetching data for city_id 180: 'appointmentId'
+[2024-12-05 23:47:37,500] 238 root - INFO - Error fetching data for city_id 184: 'appointmentId'
+[2024-12-05 23:47:37,547] 238 root - INFO - Error fetching data for city_id 179: 'appointmentId'
+[2024-12-05 23:47:37,547] 238 root - INFO - Error fetching data for city_id 183: 'appointmentId'
+[2024-12-05 23:47:37,547] 238 root - INFO - Error fetching data for city_id 181: 'appointmentId'
+[2024-12-05 23:47:37,595] 238 root - INFO - Error fetching data for city_id 182: 'appointmentId'
+[2024-12-05 23:47:37,969] 238 root - INFO - Error fetching data for city_id 186: 'appointmentId'
+[2024-12-05 23:47:38,462] 253 root - INFO - Fetched 0 appointment IDs for city_id 158
+[2024-12-05 23:47:38,501] 253 root - INFO - Fetched 0 appointment IDs for city_id 143
+[2024-12-05 23:47:38,501] 253 root - INFO - Fetched 29 appointment IDs for city_id 136
+[2024-12-05 23:47:38,501] 253 root - INFO - Fetched 0 appointment IDs for city_id 150
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 142
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 152
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 133
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 141
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 138
+[2024-12-05 23:47:38,502] 253 root - INFO - Fetched 0 appointment IDs for city_id 155
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 148
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 157
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 147
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 156
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 154
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 140
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 133 appointment IDs for city_id 132
+[2024-12-05 23:47:38,503] 253 root - INFO - Fetched 0 appointment IDs for city_id 162
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 160
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 165
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 163
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 166
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 164
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 168
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 172
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 185 appointment IDs for city_id 134
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 169
+[2024-12-05 23:47:38,504] 253 root - INFO - Fetched 0 appointment IDs for city_id 175
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 173
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 171
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 170
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 185
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 187
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 192
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 189
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 190
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 194
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 188
+[2024-12-05 23:47:38,505] 253 root - INFO - Fetched 0 appointment IDs for city_id 167
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 191
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 178
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 176
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 174
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 177
+[2024-12-05 23:47:38,506] 253 root - INFO - Fetched 0 appointment IDs for city_id 180
+[2024-12-05 23:47:38,507] 253 root - INFO - Fetched 0 appointment IDs for city_id 184
+[2024-12-05 23:47:38,507] 253 root - INFO - Fetched 0 appointment IDs for city_id 179
+[2024-12-05 23:47:38,507] 253 root - INFO - Fetched 0 appointment IDs for city_id 183
+[2024-12-05 23:47:38,507] 253 root - INFO - Fetched 0 appointment IDs for city_id 181
+[2024-12-05 23:47:38,507] 253 root - INFO - Fetched 0 appointment IDs for city_id 182
+[2024-12-05 23:47:38,508] 253 root - INFO - Fetched 0 appointment IDs for city_id 186
+[2024-12-05 23:47:38,508] 238 root - INFO - Error fetching data for city_id 198: 'appointmentId'
+[2024-12-05 23:47:38,523] 238 root - INFO - Error fetching data for city_id 197: 'appointmentId'
+[2024-12-05 23:47:38,523] 253 root - INFO - Fetched 0 appointment IDs for city_id 198
+[2024-12-05 23:47:38,523] 253 root - INFO - Fetched 0 appointment IDs for city_id 197
+[2024-12-05 23:47:38,523] 238 root - INFO - Error fetching data for city_id 195: 'appointmentId'
+[2024-12-05 23:47:38,533] 238 root - INFO - Error fetching data for city_id 199: 'appointmentId'
+[2024-12-05 23:47:38,533] 253 root - INFO - Fetched 0 appointment IDs for city_id 195
+[2024-12-05 23:47:38,533] 253 root - INFO - Fetched 0 appointment IDs for city_id 199
+[2024-12-05 23:47:38,540] 238 root - INFO - Error fetching data for city_id 196: 'appointmentId'
+[2024-12-05 23:47:38,556] 253 root - INFO - Fetched 0 appointment IDs for city_id 196
+[2024-12-05 23:47:38,556] 238 root - INFO - Error fetching data for city_id 193: 'appointmentId'
+[2024-12-05 23:47:38,556] 253 root - INFO - Fetched 0 appointment IDs for city_id 193
+[2024-12-05 23:47:38,625] 238 root - INFO - Error fetching data for city_id 200: 'appointmentId'
+[2024-12-05 23:47:38,627] 253 root - INFO - Fetched 0 appointment IDs for city_id 200
+[2024-12-05 23:47:38,633] 394 root - INFO - Total appointment IDs fetched: 347
+[2024-12-05 23:47:38,633] 397 root - INFO - Starting Stage 2: Fetching car details
+[2024-12-05 23:47:38,643] 262 root - INFO - Currently Fetching: 19765231710
+[2024-12-05 23:47:38,647] 262 root - INFO - Currently Fetching: 18511230753
+[2024-12-05 23:47:38,647] 262 root - INFO - Currently Fetching: 13871537753
+[2024-12-05 23:47:38,659] 262 root - INFO - Currently Fetching: 18510833798
+[2024-12-05 23:47:38,662] 262 root - INFO - Currently Fetching: 25285830740
+[2024-12-05 23:47:38,667] 262 root - INFO - Currently Fetching: 19799335769
+[2024-12-05 23:47:38,670] 262 root - INFO - Currently Fetching: 18574836704
+[2024-12-05 23:47:38,681] 262 root - INFO - Currently Fetching: 18556431738
+[2024-12-05 23:47:38,683] 262 root - INFO - Currently Fetching: 18549430729
+[2024-12-05 23:47:38,687] 262 root - INFO - Currently Fetching: 18522823711
+[2024-12-05 23:47:38,692] 262 root - INFO - Currently Fetching: 18521731723
+[2024-12-05 23:47:38,695] 262 root - INFO - Currently Fetching: 18509128796
+[2024-12-05 23:47:38,695] 262 root - INFO - Currently Fetching: 13923735720
+[2024-12-05 23:47:38,708] 262 root - INFO - Currently Fetching: 13891234767
+[2024-12-05 23:47:38,708] 262 root - INFO - Currently Fetching: 13890533722
+[2024-12-05 23:47:38,724] 262 root - INFO - Currently Fetching: 13880127770
+[2024-12-05 23:47:38,724] 262 root - INFO - Currently Fetching: 13868930761
+[2024-12-05 23:47:38,734] 262 root - INFO - Currently Fetching: 13859624755
+[2024-12-05 23:47:38,734] 262 root - INFO - Currently Fetching: 13855830706
+[2024-12-05 23:47:38,741] 262 root - INFO - Currently Fetching: 13852736703
+[2024-12-05 23:47:38,741] 262 root - INFO - Currently Fetching: 13849032749
+[2024-12-05 23:47:38,756] 262 root - INFO - Currently Fetching: 13835938745
+[2024-12-05 23:47:38,756] 262 root - INFO - Currently Fetching: 13834838706
+[2024-12-05 23:47:38,756] 262 root - INFO - Currently Fetching: 13831432723
+[2024-12-05 23:47:38,771] 262 root - INFO - Currently Fetching: 13819330767
+[2024-12-05 23:47:38,771] 262 root - INFO - Currently Fetching: 13816137726
+[2024-12-05 23:47:38,787] 262 root - INFO - Currently Fetching: 18580534799
+[2024-12-05 23:47:38,787] 262 root - INFO - Currently Fetching: 18541224717
+[2024-12-05 23:47:38,787] 262 root - INFO - Currently Fetching: 13826223719
+[2024-12-05 23:47:38,787] 262 root - INFO - Currently Fetching: 10552537794
+[2024-12-05 23:47:38,803] 262 root - INFO - Currently Fetching: 11235134713
+[2024-12-05 23:47:38,803] 262 root - INFO - Currently Fetching: 10553933789
+[2024-12-05 23:47:38,803] 262 root - INFO - Currently Fetching: 10176486747
+[2024-12-05 23:47:38,818] 262 root - INFO - Currently Fetching: 10592280765
+[2024-12-05 23:47:38,830] 262 root - INFO - Currently Fetching: 10193681745
+[2024-12-05 23:47:38,834] 262 root - INFO - Currently Fetching: 10552081723
+[2024-12-05 23:47:38,835] 262 root - INFO - Currently Fetching: 10014783747
+[2024-12-05 23:47:38,835] 262 root - INFO - Currently Fetching: 10038132710
+[2024-12-05 23:47:38,850] 262 root - INFO - Currently Fetching: 10587680722
+[2024-12-05 23:47:38,850] 262 root - INFO - Currently Fetching: 11252731754
+[2024-12-05 23:47:38,850] 262 root - INFO - Currently Fetching: 10081085700
+[2024-12-05 23:47:38,866] 262 root - INFO - Currently Fetching: 11289226779
+[2024-12-05 23:47:38,866] 262 root - INFO - Currently Fetching: 11287028772
+[2024-12-05 23:47:38,881] 262 root - INFO - Currently Fetching: 11286130755
+[2024-12-05 23:47:38,881] 262 root - INFO - Currently Fetching: 11283323718
+[2024-12-05 23:47:38,901] 262 root - INFO - Currently Fetching: 11268132702
+[2024-12-05 23:47:38,901] 262 root - INFO - Currently Fetching: 11260139782
+[2024-12-05 23:47:38,913] 262 root - INFO - Currently Fetching: 11255237766
+[2024-12-05 23:47:38,913] 262 root - INFO - Currently Fetching: 11252932734
+[2024-12-05 23:47:38,929] 262 root - INFO - Currently Fetching: 11251421711
+[2024-12-05 23:47:38,929] 262 root - INFO - Currently Fetching: 11249233746
+[2024-12-05 23:47:38,937] 262 root - INFO - Currently Fetching: 11247952765
+[2024-12-05 23:47:38,947] 262 root - INFO - Currently Fetching: 11243429750
+[2024-12-05 23:47:38,947] 262 root - INFO - Currently Fetching: 11241927715
+[2024-12-05 23:47:38,947] 262 root - INFO - Currently Fetching: 11230630703
+[2024-12-05 23:47:38,968] 262 root - INFO - Currently Fetching: 11220221776
+[2024-12-05 23:47:38,973] 262 root - INFO - Currently Fetching: 11219726772
+[2024-12-05 23:47:38,980] 262 root - INFO - Currently Fetching: 11207221711
+[2024-12-05 23:47:38,986] 262 root - INFO - Currently Fetching: 11207020716
+[2024-12-05 23:47:39,001] 262 root - INFO - Currently Fetching: 11206528719
+[2024-12-05 23:47:39,011] 262 root - INFO - Currently Fetching: 10582937741
+[2024-12-05 23:47:39,016] 262 root - INFO - Currently Fetching: 10582226718
+[2024-12-05 23:47:39,019] 262 root - INFO - Currently Fetching: 10580228779
+[2024-12-05 23:47:39,028] 262 root - INFO - Currently Fetching: 10577929771
+[2024-12-05 23:47:39,047] 262 root - INFO - Currently Fetching: 10574425717
+[2024-12-05 23:47:39,052] 262 root - INFO - Currently Fetching: 10568425777
+[2024-12-05 23:47:39,054] 262 root - INFO - Currently Fetching: 10568129774
+[2024-12-05 23:47:39,057] 262 root - INFO - Currently Fetching: 10564924717
+[2024-12-05 23:47:39,065] 262 root - INFO - Currently Fetching: 10562926756
+[2024-12-05 23:47:39,073] 262 root - INFO - Currently Fetching: 10561727713
+[2024-12-05 23:47:39,086] 262 root - INFO - Currently Fetching: 10561020716
+[2024-12-05 23:47:39,091] 262 root - INFO - Currently Fetching: 10559723797
+[2024-12-05 23:47:39,117] 262 root - INFO - Currently Fetching: 10558022770
+[2024-12-05 23:47:39,124] 262 root - INFO - Currently Fetching: 10552125778
+[2024-12-05 23:47:39,146] 262 root - INFO - Currently Fetching: 10551429778
+[2024-12-05 23:47:39,148] 262 root - INFO - Currently Fetching: 10547826714
+[2024-12-05 23:47:39,159] 262 root - INFO - Currently Fetching: 10535133709
+[2024-12-05 23:47:39,167] 262 root - INFO - Currently Fetching: 10534931706
+[2024-12-05 23:47:39,170] 262 root - INFO - Currently Fetching: 10533454755
+[2024-12-05 23:47:39,180] 262 root - INFO - Currently Fetching: 10529833740
+[2024-12-05 23:47:39,215] 262 root - INFO - Currently Fetching: 10528026771
+[2024-12-05 23:47:39,249] 262 root - INFO - Currently Fetching: 10522227712
+[2024-12-05 23:47:39,306] 262 root - INFO - Currently Fetching: 10517733763
+[2024-12-05 23:47:39,343] 262 root - INFO - Currently Fetching: 10513839740
+[2024-12-05 23:47:39,457] 262 root - INFO - Currently Fetching: 10510032787
+[2024-12-05 23:47:39,546] 262 root - INFO - Currently Fetching: 10500134743
+[2024-12-05 23:47:39,635] 262 root - INFO - Currently Fetching: 10500029779
+[2024-12-05 23:47:39,651] 262 root - INFO - Currently Fetching: 10193425711
+[2024-12-05 23:47:39,655] 262 root - INFO - Currently Fetching: 10188620771
+[2024-12-05 23:47:39,668] 262 root - INFO - Currently Fetching: 10186032749
+[2024-12-05 23:47:39,677] 262 root - INFO - Currently Fetching: 10181030710
+[2024-12-05 23:47:39,677] 262 root - INFO - Currently Fetching: 10175926713
+[2024-12-05 23:47:39,711] 262 root - INFO - Currently Fetching: 10164228778
+[2024-12-05 23:47:39,717] 262 root - INFO - Currently Fetching: 10163420795
+[2024-12-05 23:47:39,745] 262 root - INFO - Currently Fetching: 10161226773
+[2024-12-05 23:47:39,749] 262 root - INFO - Currently Fetching: 10155035767
+[2024-12-05 23:47:39,753] 262 root - INFO - Currently Fetching: 10136526772
+[2024-12-05 23:47:39,764] 262 root - INFO - Currently Fetching: 10121437705
+[2024-12-05 23:47:39,775] 262 root - INFO - Currently Fetching: 10120722775
+[2024-12-05 23:47:39,779] 262 root - INFO - Currently Fetching: 10108823775
+[2024-12-05 23:47:39,787] 262 root - INFO - Currently Fetching: 10105725756
+[2024-12-05 23:47:39,790] 262 root - INFO - Currently Fetching: 10105125750
+[2024-12-05 23:47:39,806] 262 root - INFO - Currently Fetching: 10098522719
+[2024-12-05 23:47:39,811] 262 root - INFO - Currently Fetching: 10097138735
+[2024-12-05 23:47:39,822] 262 root - INFO - Currently Fetching: 10093629717
+[2024-12-05 23:47:39,939] 262 root - INFO - Currently Fetching: 10089432768
+[2024-12-05 23:47:39,999] 262 root - INFO - Currently Fetching: 10089327773
+[2024-12-05 23:47:40,139] 262 root - INFO - Currently Fetching: 10088237769
+[2024-12-05 23:47:40,156] 262 root - INFO - Currently Fetching: 10085920710
+[2024-12-05 23:47:40,204] 262 root - INFO - Currently Fetching: 10079627774
+[2024-12-05 23:47:40,625] 262 root - INFO - Currently Fetching: 10073327776
+[2024-12-05 23:47:40,932] 262 root - INFO - Currently Fetching: 10069420779
+[2024-12-05 23:47:41,070] 262 root - INFO - Currently Fetching: 10069420772
+[2024-12-05 23:47:41,208] 262 root - INFO - Currently Fetching: 10068437798
+[2024-12-05 23:47:41,250] 262 root - INFO - Currently Fetching: 10067935709
+[2024-12-05 23:47:41,264] 262 root - INFO - Currently Fetching: 10067128719
+[2024-12-05 23:47:41,273] 262 root - INFO - Currently Fetching: 10062639751
+[2024-12-05 23:47:41,316] 262 root - INFO - Currently Fetching: 10061436764
+[2024-12-05 23:47:41,334] 262 root - INFO - Currently Fetching: 10059520719
+[2024-12-05 23:47:41,355] 262 root - INFO - Currently Fetching: 10057626715
+[2024-12-05 23:47:41,423] 262 root - INFO - Currently Fetching: 10056220715
+[2024-12-05 23:47:41,572] 262 root - INFO - Currently Fetching: 10054626717
+[2024-12-05 23:47:41,591] 262 root - INFO - Currently Fetching: 10054321772
+[2024-12-05 23:47:41,602] 262 root - INFO - Currently Fetching: 10052929779
+[2024-12-05 23:47:41,666] 262 root - INFO - Currently Fetching: 10051522754
+[2024-12-05 23:47:41,678] 262 root - INFO - Currently Fetching: 10050734740
+[2024-12-05 23:47:41,732] 262 root - INFO - Currently Fetching: 10049229779
+[2024-12-05 23:47:41,757] 262 root - INFO - Currently Fetching: 10045723711
+[2024-12-05 23:47:41,757] 262 root - INFO - Currently Fetching: 10043920719
+[2024-12-05 23:47:41,872] 262 root - INFO - Currently Fetching: 10039521714
+[2024-12-05 23:47:41,960] 262 root - INFO - Currently Fetching: 10038239761
+[2024-12-05 23:47:42,018] 262 root - INFO - Currently Fetching: 10036636765
+[2024-12-05 23:47:42,053] 262 root - INFO - Currently Fetching: 10028838735
+[2024-12-05 23:47:42,239] 262 root - INFO - Currently Fetching: 10027537704
+[2024-12-05 23:47:42,408] 262 root - INFO - Currently Fetching: 10027431730
+[2024-12-05 23:47:42,479] 262 root - INFO - Currently Fetching: 10026720775
+[2024-12-05 23:47:42,529] 262 root - INFO - Currently Fetching: 10026538708
+[2024-12-05 23:47:42,615] 262 root - INFO - Currently Fetching: 10024834734
+[2024-12-05 23:47:42,738] 262 root - INFO - Currently Fetching: 10024321718
+[2024-12-05 23:47:42,858] 262 root - INFO - Currently Fetching: 10022337727
+[2024-12-05 23:47:43,201] 262 root - INFO - Currently Fetching: 10018338740
+[2024-12-05 23:47:43,227] 262 root - INFO - Currently Fetching: 10015933769
+[2024-12-05 23:47:43,360] 262 root - INFO - Currently Fetching: 10015732749
+[2024-12-05 23:47:43,427] 262 root - INFO - Currently Fetching: 10014835786
+[2024-12-05 23:47:43,482] 262 root - INFO - Currently Fetching: 10011535709
+[2024-12-05 23:47:43,892] 262 root - INFO - Currently Fetching: 10011530762
+[2024-12-05 23:47:44,342] 262 root - INFO - Currently Fetching: 10010132792
+[2024-12-05 23:47:44,681] 262 root - INFO - Currently Fetching: 10001781760
+[2024-12-05 23:47:44,758] 262 root - INFO - Currently Fetching: 10001330764
+[2024-12-05 23:47:44,850] 262 root - INFO - Currently Fetching: 11027733737
+[2024-12-05 23:47:45,007] 262 root - INFO - Currently Fetching: 10028786700
+[2024-12-05 23:47:45,007] 262 root - INFO - Currently Fetching: 10078283761
+[2024-12-05 23:47:45,007] 262 root - INFO - Currently Fetching: 10596487782
+[2024-12-05 23:47:45,116] 262 root - INFO - Currently Fetching: 11240334784
+[2024-12-05 23:47:45,272] 262 root - INFO - Currently Fetching: 10018481747
+[2024-12-05 23:47:45,363] 262 root - INFO - Currently Fetching: 10524682768
+[2024-12-05 23:47:45,551] 262 root - INFO - Currently Fetching: 10112287722
+[2024-12-05 23:47:45,665] 262 root - INFO - Currently Fetching: 11262821753
+[2024-12-05 23:47:45,680] 262 root - INFO - Currently Fetching: 11256226797
+[2024-12-05 23:47:45,821] 262 root - INFO - Currently Fetching: 11239723755
+[2024-12-05 23:47:45,981] 262 root - INFO - Currently Fetching: 10574221778
+[2024-12-05 23:47:46,269] 262 root - INFO - Currently Fetching: 10060038702
+[2024-12-05 23:47:46,528] 262 root - INFO - Currently Fetching: 10041088760
+[2024-12-05 23:47:46,747] 262 root - INFO - Currently Fetching: 11231289739
+[2024-12-05 23:47:46,826] 262 root - INFO - Currently Fetching: 10149984766
+[2024-12-05 23:47:47,073] 262 root - INFO - Currently Fetching: 10002556709
+[2024-12-05 23:47:47,089] 262 root - INFO - Currently Fetching: 10080038718
+[2024-12-05 23:47:47,120] 262 root - INFO - Currently Fetching: 10013186742
+[2024-12-05 23:47:47,200] 262 root - INFO - Currently Fetching: 10556138783
+[2024-12-05 23:47:47,264] 262 root - INFO - Currently Fetching: 12046785743
+[2024-12-05 23:47:47,311] 262 root - INFO - Currently Fetching: 11297636762
+[2024-12-05 23:47:47,327] 262 root - INFO - Currently Fetching: 11297223794
+[2024-12-05 23:47:47,406] 262 root - INFO - Currently Fetching: 11292239722
+[2024-12-05 23:47:47,481] 262 root - INFO - Currently Fetching: 11289233757
+[2024-12-05 23:47:47,497] 262 root - INFO - Currently Fetching: 11285727772
+[2024-12-05 23:47:47,575] 262 root - INFO - Currently Fetching: 11284338734
+[2024-12-05 23:47:47,674] 262 root - INFO - Currently Fetching: 11277323798
+[2024-12-05 23:47:47,875] 262 root - INFO - Currently Fetching: 11276033708
+[2024-12-05 23:47:47,912] 262 root - INFO - Currently Fetching: 11275634763
+[2024-12-05 23:47:47,951] 262 root - INFO - Currently Fetching: 11273435708
+[2024-12-05 23:47:48,075] 262 root - INFO - Currently Fetching: 11267835744
+[2024-12-05 23:47:48,075] 262 root - INFO - Currently Fetching: 11260328778
+[2024-12-05 23:47:48,106] 262 root - INFO - Currently Fetching: 11250139748
+[2024-12-05 23:47:48,106] 262 root - INFO - Currently Fetching: 11246129775
+[2024-12-05 23:47:48,281] 262 root - INFO - Currently Fetching: 11242236720
+[2024-12-05 23:47:48,327] 262 root - INFO - Currently Fetching: 11221236727
+[2024-12-05 23:47:48,389] 262 root - INFO - Currently Fetching: 11210236706
+[2024-12-05 23:47:48,590] 262 root - INFO - Currently Fetching: 11078336743
+[2024-12-05 23:47:48,703] 262 root - INFO - Currently Fetching: 11040534761
+[2024-12-05 23:47:48,734] 262 root - INFO - Currently Fetching: 11040124719
+[2024-12-05 23:47:48,765] 262 root - INFO - Currently Fetching: 11035733709
+[2024-12-05 23:47:49,058] 262 root - INFO - Currently Fetching: 11025429773
+[2024-12-05 23:47:49,132] 262 root - INFO - Currently Fetching: 11007534786
+[2024-12-05 23:47:49,200] 262 root - INFO - Currently Fetching: 10596431707
+[2024-12-05 23:47:49,281] 262 root - INFO - Currently Fetching: 10593423716
+[2024-12-05 23:47:49,480] 262 root - INFO - Currently Fetching: 10591036724
+[2024-12-05 23:47:49,497] 262 root - INFO - Currently Fetching: 10587231705
+[2024-12-05 23:47:49,666] 262 root - INFO - Currently Fetching: 10586626792
+[2024-12-05 23:47:49,806] 262 root - INFO - Currently Fetching: 10585727719
+[2024-12-05 23:47:49,986] 262 root - INFO - Currently Fetching: 10582722777
+[2024-12-05 23:47:50,144] 262 root - INFO - Currently Fetching: 10580037700
+[2024-12-05 23:47:50,161] 262 root - INFO - Currently Fetching: 10579235782
+[2024-12-05 23:47:50,333] 262 root - INFO - Currently Fetching: 10576834727
+[2024-12-05 23:47:50,442] 262 root - INFO - Currently Fetching: 10572934727
+[2024-12-05 23:47:50,931] 262 root - INFO - Currently Fetching: 10572926774
+[2024-12-05 23:47:51,190] 262 root - INFO - Currently Fetching: 10566034708
+[2024-12-05 23:47:51,297] 262 root - INFO - Currently Fetching: 10565737765
+[2024-12-05 23:47:51,516] 262 root - INFO - Currently Fetching: 10558128779
+[2024-12-05 23:47:51,783] 262 root - INFO - Currently Fetching: 10557936709
+[2024-12-05 23:47:51,820] 262 root - INFO - Currently Fetching: 10551132764
+[2024-12-05 23:47:51,868] 262 root - INFO - Currently Fetching: 10551121714
+[2024-12-05 23:47:51,937] 262 root - INFO - Currently Fetching: 10550536760
+[2024-12-05 23:47:52,071] 262 root - INFO - Currently Fetching: 10545323776
+[2024-12-05 23:47:52,331] 262 root - INFO - Currently Fetching: 10544126779
+[2024-12-05 23:47:52,396] 262 root - INFO - Currently Fetching: 10542624779
+[2024-12-05 23:47:52,491] 262 root - INFO - Currently Fetching: 10542439743
+[2024-12-05 23:47:52,589] 262 root - INFO - Currently Fetching: 10539732768
+[2024-12-05 23:47:52,649] 262 root - INFO - Currently Fetching: 10533525712
+[2024-12-05 23:47:52,782] 262 root - INFO - Currently Fetching: 10527422719
+[2024-12-05 23:47:53,122] 262 root - INFO - Currently Fetching: 10523239709
+[2024-12-05 23:47:53,452] 262 root - INFO - Currently Fetching: 10520033737
+[2024-12-05 23:47:53,501] 262 root - INFO - Currently Fetching: 10508533746
+[2024-12-05 23:47:53,564] 262 root - INFO - Currently Fetching: 10504729792
+[2024-12-05 23:47:53,723] 262 root - INFO - Currently Fetching: 10194520790
+[2024-12-05 23:47:53,929] 262 root - INFO - Currently Fetching: 10182536706
+[2024-12-05 23:47:54,159] 262 root - INFO - Currently Fetching: 10161621717
+[2024-12-05 23:47:54,173] 262 root - INFO - Currently Fetching: 10157828710
+[2024-12-05 23:47:54,189] 262 root - INFO - Currently Fetching: 10157129715
+[2024-12-05 23:47:54,268] 262 root - INFO - Currently Fetching: 10154025775
+[2024-12-05 23:47:54,304] 262 root - INFO - Currently Fetching: 10150636723
+[2024-12-05 23:47:54,349] 262 root - INFO - Currently Fetching: 10130723775
+[2024-12-05 23:47:54,356] 262 root - INFO - Currently Fetching: 10121133742
+[2024-12-05 23:47:54,375] 262 root - INFO - Currently Fetching: 10105721751
+[2024-12-05 23:47:54,410] 262 root - INFO - Currently Fetching: 10102239769
+[2024-12-05 23:47:54,423] 262 root - INFO - Currently Fetching: 10098935765
+[2024-12-05 23:47:54,517] 262 root - INFO - Currently Fetching: 10098837700
+[2024-12-05 23:47:54,565] 262 root - INFO - Currently Fetching: 10097732764
+[2024-12-05 23:47:54,644] 262 root - INFO - Currently Fetching: 10094832764
+[2024-12-05 23:47:54,769] 262 root - INFO - Currently Fetching: 10094731745
+[2024-12-05 23:47:54,844] 262 root - INFO - Currently Fetching: 10094621794
+[2024-12-05 23:47:54,874] 262 root - INFO - Currently Fetching: 10088730702
+[2024-12-05 23:47:54,961] 262 root - INFO - Currently Fetching: 10086825715
+[2024-12-05 23:47:55,039] 262 root - INFO - Currently Fetching: 10084629778
+[2024-12-05 23:47:55,245] 262 root - INFO - Currently Fetching: 10084124772
+[2024-12-05 23:47:55,481] 262 root - INFO - Currently Fetching: 10082437708
+[2024-12-05 23:47:55,614] 262 root - INFO - Currently Fetching: 10081130730
+[2024-12-05 23:47:55,733] 262 root - INFO - Currently Fetching: 10080738742
+[2024-12-05 23:47:55,811] 262 root - INFO - Currently Fetching: 10080531769
+[2024-12-05 23:47:55,868] 262 root - INFO - Currently Fetching: 10080123797
+[2024-12-05 23:47:56,031] 262 root - INFO - Currently Fetching: 10079932702
+[2024-12-05 23:47:56,217] 262 root - INFO - Currently Fetching: 10079927751
+[2024-12-05 23:47:56,833] 262 root - INFO - Currently Fetching: 10077329710
+[2024-12-05 23:47:56,944] 262 root - INFO - Currently Fetching: 10077025775
+[2024-12-05 23:47:57,568] 262 root - INFO - Currently Fetching: 10076226758
+[2024-12-05 23:47:57,637] 262 root - INFO - Currently Fetching: 10075525756
+[2024-12-05 23:47:57,718] 262 root - INFO - Currently Fetching: 10074025777
+[2024-12-05 23:47:57,745] 262 root - INFO - Currently Fetching: 10070823775
+[2024-12-05 23:47:58,073] 262 root - INFO - Currently Fetching: 10068826711
+[2024-12-05 23:47:58,286] 262 root - INFO - Currently Fetching: 10067534748
+[2024-12-05 23:47:58,696] 262 root - INFO - Currently Fetching: 10066335751
+[2024-12-05 23:47:58,809] 262 root - INFO - Currently Fetching: 10066024771
+[2024-12-05 23:47:58,967] 262 root - INFO - Currently Fetching: 10066024719
+[2024-12-05 23:47:59,335] 262 root - INFO - Currently Fetching: 10064636761
+[2024-12-05 23:47:59,548] 262 root - INFO - Currently Fetching: 10063735759
+[2024-12-05 23:47:59,566] 262 root - INFO - Currently Fetching: 10062423712
+[2024-12-05 23:47:59,820] 262 root - INFO - Currently Fetching: 10061520714
+[2024-12-05 23:47:59,884] 262 root - INFO - Currently Fetching: 10060229777
+[2024-12-05 23:48:00,307] 262 root - INFO - Currently Fetching: 10058728773
+[2024-12-05 23:48:00,522] 262 root - INFO - Currently Fetching: 10058431768
+[2024-12-05 23:48:00,792] 262 root - INFO - Currently Fetching: 10056738744
+[2024-12-05 23:48:01,197] 262 root - INFO - Currently Fetching: 10056227774
+[2024-12-05 23:48:01,231] 262 root - INFO - Currently Fetching: 10055727770
+[2024-12-05 23:48:01,263] 262 root - INFO - Currently Fetching: 10054738743
+[2024-12-05 23:48:01,749] 262 root - INFO - Currently Fetching: 10053825776
+[2024-12-05 23:48:01,803] 262 root - INFO - Currently Fetching: 10053529775
+[2024-12-05 23:48:02,597] 262 root - INFO - Currently Fetching: 10052924771
+[2024-12-05 23:48:03,354] 262 root - INFO - Currently Fetching: 10052737761
+[2024-12-05 23:48:03,531] 262 root - INFO - Currently Fetching: 10052330764
+[2024-12-05 23:48:03,583] 262 root - INFO - Currently Fetching: 10051622774
+[2024-12-05 23:48:03,946] 262 root - INFO - Currently Fetching: 10051522771
+[2024-12-05 23:48:04,040] 262 root - INFO - Currently Fetching: 10051124776
+[2024-12-05 23:48:06,488] 262 root - INFO - Currently Fetching: 10050323774
+[2024-12-05 23:48:06,869] 262 root - INFO - Currently Fetching: 10050028778
+[2024-12-05 23:48:06,886] 262 root - INFO - Currently Fetching: 10049022777
+[2024-12-05 23:48:07,306] 262 root - INFO - Currently Fetching: 10047728778
+[2024-12-05 23:48:08,022] 262 root - INFO - Currently Fetching: 10047630738
+[2024-12-05 23:48:08,148] 262 root - INFO - Currently Fetching: 10045539755
+[2024-12-05 23:48:08,687] 262 root - INFO - Currently Fetching: 10044020776
+[2024-12-05 23:48:08,992] 262 root - INFO - Currently Fetching: 10043637737
+[2024-12-05 23:48:09,024] 262 root - INFO - Currently Fetching: 10043426777
+[2024-12-05 23:48:09,413] 262 root - INFO - Currently Fetching: 10042631733
+[2024-12-05 23:48:09,413] 262 root - INFO - Currently Fetching: 10041633748
+[2024-12-05 23:48:09,429] 262 root - INFO - Currently Fetching: 10040825797
+[2024-12-05 23:48:09,495] 262 root - INFO - Currently Fetching: 10039533740
+[2024-12-05 23:48:09,523] 262 root - INFO - Currently Fetching: 10038720777
+[2024-12-05 23:48:09,539] 262 root - INFO - Currently Fetching: 10037936765
+[2024-12-05 23:48:09,555] 262 root - INFO - Currently Fetching: 10036837701
+[2024-12-05 23:48:09,602] 262 root - INFO - Currently Fetching: 10036023771
+[2024-12-05 23:48:09,879] 262 root - INFO - Currently Fetching: 10035620710
+[2024-12-05 23:48:09,900] 262 root - INFO - Currently Fetching: 10034881740
+[2024-12-05 23:48:09,958] 262 root - INFO - Currently Fetching: 10034738733
+[2024-12-05 23:48:10,461] 262 root - INFO - Currently Fetching: 10034234732
+[2024-12-05 23:48:10,682] 262 root - INFO - Currently Fetching: 10034124776
+[2024-12-05 23:48:10,682] 262 root - INFO - Currently Fetching: 10033023714
+[2024-12-05 23:48:11,466] 262 root - INFO - Currently Fetching: 10032424719
+[2024-12-05 23:48:11,498] 262 root - INFO - Currently Fetching: 10030922710
+[2024-12-05 23:48:11,499] 262 root - INFO - Currently Fetching: 10026928791
+[2024-12-05 23:48:11,697] 262 root - INFO - Currently Fetching: 10026524713
+[2024-12-05 23:48:11,892] 262 root - INFO - Currently Fetching: 10026434758
+[2024-12-05 23:48:12,264] 262 root - INFO - Currently Fetching: 10021237762
+[2024-12-05 23:48:12,670] 262 root - INFO - Currently Fetching: 10021234738
+[2024-12-05 23:48:12,701] 262 root - INFO - Currently Fetching: 10019723790
+[2024-12-05 23:48:13,544] 262 root - INFO - Currently Fetching: 10019628779
+[2024-12-05 23:48:14,028] 262 root - INFO - Currently Fetching: 10017325773
+[2024-12-05 23:48:14,083] 262 root - INFO - Currently Fetching: 10015426753
+[2024-12-05 23:48:14,256] 262 root - INFO - Currently Fetching: 10014728775
+[2024-12-05 23:48:15,012] 262 root - INFO - Currently Fetching: 10013221797
+[2024-12-05 23:48:15,046] 262 root - INFO - Currently Fetching: 10012231703
+[2024-12-05 23:48:15,204] 262 root - INFO - Currently Fetching: 10011221712
+[2024-12-05 23:48:15,283] 262 root - INFO - Currently Fetching: 10009021793
+[2024-12-05 23:48:15,309] 262 root - INFO - Currently Fetching: 10007934760
+[2024-12-05 23:48:15,331] 262 root - INFO - Currently Fetching: 10007021778
+[2024-12-05 23:48:15,369] 262 root - INFO - Currently Fetching: 10005323712
+[2024-12-05 23:48:15,403] 262 root - INFO - Currently Fetching: 10004833746
+[2024-12-05 23:48:15,488] 262 root - INFO - Currently Fetching: 10003326797
+[2024-12-05 23:48:15,545] 262 root - INFO - Currently Fetching: 10003128717
+[2024-12-05 23:48:15,692] 262 root - INFO - Currently Fetching: 10002721770
+[2024-12-05 23:48:16,252] 262 root - INFO - Currently Fetching: 10002132765
+[2024-12-05 23:48:16,756] 262 root - INFO - Currently Fetching: 10002038729
+[2024-12-05 23:48:16,796] 262 root - INFO - Currently Fetching: 10001131761
+[2024-12-05 23:48:16,897] 262 root - INFO - Currently Fetching: 10000931700
+[2024-12-05 23:48:17,364] 262 root - INFO - Currently Fetching: 10082837731
+[2024-12-05 23:48:17,426] 262 root - INFO - Currently Fetching: 10001231792
+[2024-12-05 23:48:17,735] 262 root - INFO - Currently Fetching: 10063189722
+[2024-12-05 23:48:20,866] 262 root - INFO - Currently Fetching: 10077382748
+[2024-12-05 23:48:20,915] 262 root - INFO - Currently Fetching: 11267025777
+[2024-12-05 23:48:22,280] 262 root - INFO - Currently Fetching: 11216639785
+[2024-12-05 23:48:22,328] 262 root - INFO - Currently Fetching: 10593633761
+[2024-12-05 23:48:23,774] 262 root - INFO - Currently Fetching: 10573627750
+[2024-12-05 23:48:24,665] 262 root - INFO - Currently Fetching: 10511238743
+[2024-12-05 23:48:24,759] 262 root - INFO - Currently Fetching: 10099224798
+[2024-12-05 23:48:24,775] 262 root - INFO - Currently Fetching: 10098427771
+[2024-12-05 23:48:25,432] 262 root - INFO - Currently Fetching: 10068728776
+[2024-12-05 23:48:26,134] 262 root - INFO - Currently Fetching: 10050320716
+[2024-12-05 23:48:26,456] 262 root - INFO - Currently Fetching: 10023236705
+[2024-12-05 23:48:26,541] 262 root - INFO - Currently Fetching: 10011127775
+[2024-12-05 23:48:26,650] 262 root - INFO - Currently Fetching: 10004020777

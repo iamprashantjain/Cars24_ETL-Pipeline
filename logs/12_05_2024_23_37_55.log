@@ -1,0 +1,407 @@
+[2024-12-05 23:37:55,067] 189 root - INFO - Starting Stage 1: Fetching appointment IDs
+[2024-12-05 23:37:56,043] 36 root - INFO - Error fetching data for city_id 153: 'appointmentId'
+[2024-12-05 23:37:56,052] 36 root - INFO - Error fetching data for city_id 152: 'appointmentId'
+[2024-12-05 23:37:56,067] 36 root - INFO - Error fetching data for city_id 158: 'appointmentId'
+[2024-12-05 23:37:56,069] 36 root - INFO - Error fetching data for city_id 161: 'appointmentId'
+[2024-12-05 23:37:56,087] 36 root - INFO - Error fetching data for city_id 160: 'appointmentId'
+[2024-12-05 23:37:56,138] 36 root - INFO - Error fetching data for city_id 151: 'appointmentId'
+[2024-12-05 23:37:56,138] 36 root - INFO - Error fetching data for city_id 150: 'appointmentId'
+[2024-12-05 23:37:56,138] 36 root - INFO - Error fetching data for city_id 155: 'appointmentId'
+[2024-12-05 23:37:56,667] 36 root - INFO - Error fetching data for city_id 159: 'appointmentId'
+[2024-12-05 23:37:56,794] 36 root - INFO - Error fetching data for city_id 156: 'appointmentId'
+[2024-12-05 23:37:57,002] 36 root - INFO - Error fetching data for city_id 154: 'appointmentId'
+[2024-12-05 23:37:57,005] 36 root - INFO - Error fetching data for city_id 164: 'appointmentId'
+[2024-12-05 23:37:57,082] 36 root - INFO - Error fetching data for city_id 157: 'appointmentId'
+[2024-12-05 23:37:57,082] 36 root - INFO - Error fetching data for city_id 167: 'appointmentId'
+[2024-12-05 23:37:57,136] 36 root - INFO - Error fetching data for city_id 166: 'appointmentId'
+[2024-12-05 23:37:57,136] 36 root - INFO - Error fetching data for city_id 163: 'appointmentId'
+[2024-12-05 23:37:57,176] 36 root - INFO - Error fetching data for city_id 165: 'appointmentId'
+[2024-12-05 23:37:57,184] 36 root - INFO - Error fetching data for city_id 162: 'appointmentId'
+[2024-12-05 23:37:57,316] 36 root - INFO - Error fetching data for city_id 169: 'appointmentId'
+[2024-12-05 23:37:57,375] 36 root - INFO - Error fetching data for city_id 171: 'appointmentId'
+[2024-12-05 23:37:57,456] 36 root - INFO - Error fetching data for city_id 170: 'appointmentId'
+[2024-12-05 23:37:57,467] 36 root - INFO - Error fetching data for city_id 168: 'appointmentId'
+[2024-12-05 23:37:57,867] 36 root - INFO - Error fetching data for city_id 173: 'appointmentId'
+[2024-12-05 23:37:57,966] 36 root - INFO - Error fetching data for city_id 174: 'appointmentId'
+[2024-12-05 23:37:58,125] 36 root - INFO - Error fetching data for city_id 177: 'appointmentId'
+[2024-12-05 23:37:58,125] 36 root - INFO - Error fetching data for city_id 176: 'appointmentId'
+[2024-12-05 23:37:58,141] 36 root - INFO - Error fetching data for city_id 175: 'appointmentId'
+[2024-12-05 23:37:58,158] 36 root - INFO - Error fetching data for city_id 187: 'appointmentId'
+[2024-12-05 23:37:58,203] 36 root - INFO - Error fetching data for city_id 172: 'appointmentId'
+[2024-12-05 23:37:58,250] 36 root - INFO - Error fetching data for city_id 178: 'appointmentId'
+[2024-12-05 23:37:58,417] 36 root - INFO - Error fetching data for city_id 184: 'appointmentId'
+[2024-12-05 23:37:58,515] 36 root - INFO - Error fetching data for city_id 181: 'appointmentId'
+[2024-12-05 23:37:58,577] 36 root - INFO - Error fetching data for city_id 179: 'appointmentId'
+[2024-12-05 23:37:58,577] 36 root - INFO - Error fetching data for city_id 189: 'appointmentId'
+[2024-12-05 23:37:58,593] 36 root - INFO - Error fetching data for city_id 188: 'appointmentId'
+[2024-12-05 23:37:58,609] 36 root - INFO - Error fetching data for city_id 180: 'appointmentId'
+[2024-12-05 23:37:58,609] 36 root - INFO - Error fetching data for city_id 182: 'appointmentId'
+[2024-12-05 23:37:58,845] 36 root - INFO - Error fetching data for city_id 190: 'appointmentId'
+[2024-12-05 23:37:58,882] 36 root - INFO - Error fetching data for city_id 183: 'appointmentId'
+[2024-12-05 23:37:58,907] 36 root - INFO - Error fetching data for city_id 191: 'appointmentId'
+[2024-12-05 23:37:59,040] 36 root - INFO - Error fetching data for city_id 186: 'appointmentId'
+[2024-12-05 23:37:59,068] 36 root - INFO - Error fetching data for city_id 193: 'appointmentId'
+[2024-12-05 23:37:59,102] 36 root - INFO - Error fetching data for city_id 196: 'appointmentId'
+[2024-12-05 23:37:59,139] 36 root - INFO - Error fetching data for city_id 185: 'appointmentId'
+[2024-12-05 23:37:59,239] 36 root - INFO - Error fetching data for city_id 192: 'appointmentId'
+[2024-12-05 23:37:59,241] 36 root - INFO - Error fetching data for city_id 195: 'appointmentId'
+[2024-12-05 23:37:59,632] 36 root - INFO - Error fetching data for city_id 194: 'appointmentId'
+[2024-12-05 23:37:59,851] 36 root - INFO - Error fetching data for city_id 201: 'appointmentId'
+[2024-12-05 23:37:59,978] 36 root - INFO - Error fetching data for city_id 199: 'appointmentId'
+[2024-12-05 23:37:59,978] 36 root - INFO - Error fetching data for city_id 202: 'appointmentId'
+[2024-12-05 23:37:59,978] 36 root - INFO - Error fetching data for city_id 197: 'appointmentId'
+[2024-12-05 23:38:00,146] 36 root - INFO - Error fetching data for city_id 200: 'appointmentId'
+[2024-12-05 23:38:00,178] 36 root - INFO - Error fetching data for city_id 203: 'appointmentId'
+[2024-12-05 23:38:00,188] 36 root - INFO - Error fetching data for city_id 198: 'appointmentId'
+[2024-12-05 23:38:00,315] 36 root - INFO - Error fetching data for city_id 208: 'appointmentId'
+[2024-12-05 23:38:00,315] 36 root - INFO - Error fetching data for city_id 204: 'appointmentId'
+[2024-12-05 23:38:00,332] 36 root - INFO - Error fetching data for city_id 211: 'appointmentId'
+[2024-12-05 23:38:00,562] 36 root - INFO - Error fetching data for city_id 209: 'appointmentId'
+[2024-12-05 23:38:00,654] 36 root - INFO - Error fetching data for city_id 210: 'appointmentId'
+[2024-12-05 23:38:00,656] 36 root - INFO - Error fetching data for city_id 205: 'appointmentId'
+[2024-12-05 23:38:00,661] 36 root - INFO - Error fetching data for city_id 207: 'appointmentId'
+[2024-12-05 23:38:00,704] 36 root - INFO - Error fetching data for city_id 212: 'appointmentId'
+[2024-12-05 23:38:00,724] 36 root - INFO - Error fetching data for city_id 206: 'appointmentId'
+[2024-12-05 23:38:00,814] 36 root - INFO - Error fetching data for city_id 213: 'appointmentId'
+[2024-12-05 23:38:01,070] 36 root - INFO - Error fetching data for city_id 218: 'appointmentId'
+[2024-12-05 23:38:01,233] 36 root - INFO - Error fetching data for city_id 214: 'appointmentId'
+[2024-12-05 23:38:01,283] 36 root - INFO - Error fetching data for city_id 220: 'appointmentId'
+[2024-12-05 23:38:01,284] 36 root - INFO - Error fetching data for city_id 216: 'appointmentId'
+[2024-12-05 23:38:01,539] 36 root - INFO - Error fetching data for city_id 219: 'appointmentId'
+[2024-12-05 23:38:01,618] 36 root - INFO - Error fetching data for city_id 221: 'appointmentId'
+[2024-12-05 23:38:01,702] 36 root - INFO - Error fetching data for city_id 225: 'appointmentId'
+[2024-12-05 23:38:01,702] 36 root - INFO - Error fetching data for city_id 224: 'appointmentId'
+[2024-12-05 23:38:01,765] 36 root - INFO - Error fetching data for city_id 217: 'appointmentId'
+[2024-12-05 23:38:01,802] 36 root - INFO - Error fetching data for city_id 226: 'appointmentId'
+[2024-12-05 23:38:01,802] 36 root - INFO - Error fetching data for city_id 227: 'appointmentId'
+[2024-12-05 23:38:01,813] 36 root - INFO - Error fetching data for city_id 215: 'appointmentId'
+[2024-12-05 23:38:01,816] 36 root - INFO - Error fetching data for city_id 222: 'appointmentId'
+[2024-12-05 23:38:02,136] 36 root - INFO - Error fetching data for city_id 231: 'appointmentId'
+[2024-12-05 23:38:02,184] 36 root - INFO - Error fetching data for city_id 233: 'appointmentId'
+[2024-12-05 23:38:02,205] 36 root - INFO - Error fetching data for city_id 223: 'appointmentId'
+[2024-12-05 23:38:02,390] 36 root - INFO - Error fetching data for city_id 232: 'appointmentId'
+[2024-12-05 23:38:02,422] 36 root - INFO - Error fetching data for city_id 235: 'appointmentId'
+[2024-12-05 23:38:02,461] 36 root - INFO - Error fetching data for city_id 229: 'appointmentId'
+[2024-12-05 23:38:02,475] 36 root - INFO - Error fetching data for city_id 238: 'appointmentId'
+[2024-12-05 23:38:02,484] 36 root - INFO - Error fetching data for city_id 230: 'appointmentId'
+[2024-12-05 23:38:02,494] 36 root - INFO - Error fetching data for city_id 236: 'appointmentId'
+[2024-12-05 23:38:02,674] 36 root - INFO - Error fetching data for city_id 239: 'appointmentId'
+[2024-12-05 23:38:02,723] 36 root - INFO - Error fetching data for city_id 228: 'appointmentId'
+[2024-12-05 23:38:02,786] 36 root - INFO - Error fetching data for city_id 240: 'appointmentId'
+[2024-12-05 23:38:02,786] 36 root - INFO - Error fetching data for city_id 237: 'appointmentId'
+[2024-12-05 23:38:02,786] 36 root - INFO - Error fetching data for city_id 234: 'appointmentId'
+[2024-12-05 23:38:02,967] 36 root - INFO - Error fetching data for city_id 241: 'appointmentId'
+[2024-12-05 23:38:03,161] 36 root - INFO - Error fetching data for city_id 245: 'appointmentId'
+[2024-12-05 23:38:03,211] 36 root - INFO - Error fetching data for city_id 246: 'appointmentId'
+[2024-12-05 23:38:03,331] 36 root - INFO - Error fetching data for city_id 249: 'appointmentId'
+[2024-12-05 23:38:03,340] 36 root - INFO - Error fetching data for city_id 247: 'appointmentId'
+[2024-12-05 23:38:03,345] 36 root - INFO - Error fetching data for city_id 243: 'appointmentId'
+[2024-12-05 23:38:03,362] 36 root - INFO - Error fetching data for city_id 244: 'appointmentId'
+[2024-12-05 23:38:03,643] 36 root - INFO - Error fetching data for city_id 242: 'appointmentId'
+[2024-12-05 23:38:03,659] 36 root - INFO - Error fetching data for city_id 253: 'appointmentId'
+[2024-12-05 23:38:03,685] 36 root - INFO - Error fetching data for city_id 248: 'appointmentId'
+[2024-12-05 23:38:03,812] 36 root - INFO - Error fetching data for city_id 251: 'appointmentId'
+[2024-12-05 23:38:03,838] 36 root - INFO - Error fetching data for city_id 254: 'appointmentId'
+[2024-12-05 23:38:03,995] 36 root - INFO - Error fetching data for city_id 252: 'appointmentId'
+[2024-12-05 23:38:04,024] 36 root - INFO - Error fetching data for city_id 250: 'appointmentId'
+[2024-12-05 23:38:04,077] 36 root - INFO - Error fetching data for city_id 258: 'appointmentId'
+[2024-12-05 23:38:04,169] 36 root - INFO - Error fetching data for city_id 259: 'appointmentId'
+[2024-12-05 23:38:04,169] 36 root - INFO - Error fetching data for city_id 256: 'appointmentId'
+[2024-12-05 23:38:04,265] 36 root - INFO - Error fetching data for city_id 255: 'appointmentId'
+[2024-12-05 23:38:04,308] 36 root - INFO - Error fetching data for city_id 260: 'appointmentId'
+[2024-12-05 23:38:04,341] 36 root - INFO - Error fetching data for city_id 257: 'appointmentId'
+[2024-12-05 23:38:04,690] 36 root - INFO - Error fetching data for city_id 264: 'appointmentId'
+[2024-12-05 23:38:04,721] 36 root - INFO - Error fetching data for city_id 266: 'appointmentId'
+[2024-12-05 23:38:04,721] 36 root - INFO - Error fetching data for city_id 262: 'appointmentId'
+[2024-12-05 23:38:04,753] 36 root - INFO - Error fetching data for city_id 261: 'appointmentId'
+[2024-12-05 23:38:04,768] 36 root - INFO - Error fetching data for city_id 265: 'appointmentId'
+[2024-12-05 23:38:04,897] 36 root - INFO - Error fetching data for city_id 263: 'appointmentId'
+[2024-12-05 23:38:05,100] 36 root - INFO - Error fetching data for city_id 267: 'appointmentId'
+[2024-12-05 23:38:05,141] 36 root - INFO - Error fetching data for city_id 272: 'appointmentId'
+[2024-12-05 23:38:05,156] 36 root - INFO - Error fetching data for city_id 268: 'appointmentId'
+[2024-12-05 23:38:05,172] 36 root - INFO - Error fetching data for city_id 269: 'appointmentId'
+[2024-12-05 23:38:05,172] 36 root - INFO - Error fetching data for city_id 271: 'appointmentId'
+[2024-12-05 23:38:05,326] 36 root - INFO - Error fetching data for city_id 270: 'appointmentId'
+[2024-12-05 23:38:05,380] 36 root - INFO - Error fetching data for city_id 273: 'appointmentId'
+[2024-12-05 23:38:05,433] 36 root - INFO - Error fetching data for city_id 276: 'appointmentId'
+[2024-12-05 23:38:05,442] 36 root - INFO - Error fetching data for city_id 275: 'appointmentId'
+[2024-12-05 23:38:05,463] 36 root - INFO - Error fetching data for city_id 274: 'appointmentId'
+[2024-12-05 23:38:05,655] 36 root - INFO - Error fetching data for city_id 278: 'appointmentId'
+[2024-12-05 23:38:05,780] 36 root - INFO - Error fetching data for city_id 279: 'appointmentId'
+[2024-12-05 23:38:05,790] 36 root - INFO - Error fetching data for city_id 281: 'appointmentId'
+[2024-12-05 23:38:05,995] 36 root - INFO - Error fetching data for city_id 277: 'appointmentId'
+[2024-12-05 23:38:06,097] 36 root - INFO - Error fetching data for city_id 280: 'appointmentId'
+[2024-12-05 23:38:06,097] 36 root - INFO - Error fetching data for city_id 283: 'appointmentId'
+[2024-12-05 23:38:06,107] 51 root - INFO - Fetched 0 appointment IDs for city_id 194
+[2024-12-05 23:38:06,472] 36 root - INFO - Error fetching data for city_id 294: 'appointmentId'
+[2024-12-05 23:38:06,474] 36 root - INFO - Error fetching data for city_id 285: 'appointmentId'
+[2024-12-05 23:38:06,477] 36 root - INFO - Error fetching data for city_id 292: 'appointmentId'
+[2024-12-05 23:38:06,512] 36 root - INFO - Error fetching data for city_id 284: 'appointmentId'
+[2024-12-05 23:38:06,525] 36 root - INFO - Error fetching data for city_id 282: 'appointmentId'
+[2024-12-05 23:38:06,666] 36 root - INFO - Error fetching data for city_id 296: 'appointmentId'
+[2024-12-05 23:38:06,697] 36 root - INFO - Error fetching data for city_id 288: 'appointmentId'
+[2024-12-05 23:38:06,697] 36 root - INFO - Error fetching data for city_id 286: 'appointmentId'
+[2024-12-05 23:38:06,705] 36 root - INFO - Error fetching data for city_id 287: 'appointmentId'
+[2024-12-05 23:38:06,707] 36 root - INFO - Error fetching data for city_id 295: 'appointmentId'
+[2024-12-05 23:38:06,758] 36 root - INFO - Error fetching data for city_id 297: 'appointmentId'
+[2024-12-05 23:38:06,758] 36 root - INFO - Error fetching data for city_id 291: 'appointmentId'
+[2024-12-05 23:38:06,799] 36 root - INFO - Error fetching data for city_id 293: 'appointmentId'
+[2024-12-05 23:38:06,859] 36 root - INFO - Error fetching data for city_id 299: 'appointmentId'
+[2024-12-05 23:38:06,869] 36 root - INFO - Error fetching data for city_id 300: 'appointmentId'
+[2024-12-05 23:38:06,874] 36 root - INFO - Error fetching data for city_id 289: 'appointmentId'
+[2024-12-05 23:38:06,928] 36 root - INFO - Error fetching data for city_id 298: 'appointmentId'
+[2024-12-05 23:38:06,976] 51 root - INFO - Fetched 0 appointment IDs for city_id 200
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 156
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 184
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 153
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 179
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 187
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 177
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 169
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 202
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 226
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 207
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 161
+[2024-12-05 23:38:07,040] 51 root - INFO - Fetched 0 appointment IDs for city_id 168
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 189
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 198
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 222
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 221
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 157
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 199
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 154
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 171
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 163
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 150
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 213
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 151
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 160
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 215
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 188
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 152
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 193
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 186
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 183
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 180
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 227
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 220
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 167
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 185
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 155
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 206
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 182
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 181
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 197
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 225
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 208
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 178
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 173
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 162
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 216
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 212
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 196
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 159
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 176
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 165
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 170
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 166
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 218
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 203
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 190
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 195
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 192
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 191
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 217
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 164
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 172
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 219
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 210
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 209
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 205
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 211
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 175
+[2024-12-05 23:38:07,044] 51 root - INFO - Fetched 0 appointment IDs for city_id 158
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 224
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 201
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 174
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 204
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 214
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 233
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 231
+[2024-12-05 23:38:07,055] 51 root - INFO - Fetched 0 appointment IDs for city_id 223
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 232
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 235
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 238
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 229
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 230
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 236
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 239
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 228
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 240
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 237
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 234
+[2024-12-05 23:38:07,057] 51 root - INFO - Fetched 0 appointment IDs for city_id 241
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 245
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 246
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 249
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 247
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 243
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 244
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 242
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 253
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 248
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 251
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 254
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 252
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 250
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 258
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 259
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 256
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 255
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 260
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 257
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 103 appointment IDs for city_id 290
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 264
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 266
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 262
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 261
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 265
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 263
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 267
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 272
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 268
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 269
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 271
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 270
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 273
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 276
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 275
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 274
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 278
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 279
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 281
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 277
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 280
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 283
+[2024-12-05 23:38:07,060] 51 root - INFO - Fetched 0 appointment IDs for city_id 294
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 285
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 292
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 284
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 282
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 296
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 288
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 286
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 287
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 295
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 297
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 291
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 293
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 299
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 300
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 289
+[2024-12-05 23:38:07,070] 51 root - INFO - Fetched 0 appointment IDs for city_id 298
+[2024-12-05 23:38:07,070] 194 root - INFO - Total appointment IDs fetched: 103
+[2024-12-05 23:38:07,070] 197 root - INFO - Starting Stage 2: Fetching car details
+[2024-12-05 23:38:07,086] 60 root - INFO - Currently Fetching: 13210836788
+[2024-12-05 23:38:07,086] 60 root - INFO - Currently Fetching: 13987280767
+[2024-12-05 23:38:07,086] 60 root - INFO - Currently Fetching: 13214586709
+[2024-12-05 23:38:07,086] 60 root - INFO - Currently Fetching: 13218985762
+[2024-12-05 23:38:07,102] 60 root - INFO - Currently Fetching: 13955185764
+[2024-12-05 23:38:07,108] 60 root - INFO - Currently Fetching: 13939735799
+[2024-12-05 23:38:07,119] 60 root - INFO - Currently Fetching: 13209232780
+[2024-12-05 23:38:07,119] 60 root - INFO - Currently Fetching: 13214482748
+[2024-12-05 23:38:07,128] 60 root - INFO - Currently Fetching: 13933136758
+[2024-12-05 23:38:07,134] 60 root - INFO - Currently Fetching: 13299033725
+[2024-12-05 23:38:07,149] 60 root - INFO - Currently Fetching: 13297527716
+[2024-12-05 23:38:07,166] 60 root - INFO - Currently Fetching: 13296538787
+[2024-12-05 23:38:07,175] 60 root - INFO - Currently Fetching: 13296439742
+[2024-12-05 23:38:07,177] 60 root - INFO - Currently Fetching: 13296322794
+[2024-12-05 23:38:07,177] 60 root - INFO - Currently Fetching: 13296223776
+[2024-12-05 23:38:07,187] 60 root - INFO - Currently Fetching: 13294728773
+[2024-12-05 23:38:07,196] 60 root - INFO - Currently Fetching: 13293536762
+[2024-12-05 23:38:07,205] 60 root - INFO - Currently Fetching: 13287731709
+[2024-12-05 23:38:07,209] 60 root - INFO - Currently Fetching: 13285638765
+[2024-12-05 23:38:07,209] 60 root - INFO - Currently Fetching: 13282939765
+[2024-12-05 23:38:07,231] 60 root - INFO - Currently Fetching: 13281232741
+[2024-12-05 23:38:07,231] 60 root - INFO - Currently Fetching: 13280221772
+[2024-12-05 23:38:07,241] 60 root - INFO - Currently Fetching: 13279235704
+[2024-12-05 23:38:07,245] 60 root - INFO - Currently Fetching: 13278832768
+[2024-12-05 23:38:07,256] 60 root - INFO - Currently Fetching: 13278729713
+[2024-12-05 23:38:07,260] 60 root - INFO - Currently Fetching: 13277834709
+[2024-12-05 23:38:07,260] 60 root - INFO - Currently Fetching: 13276028777
+[2024-12-05 23:38:07,272] 60 root - INFO - Currently Fetching: 13275333705
+[2024-12-05 23:38:07,272] 60 root - INFO - Currently Fetching: 13274526797
+[2024-12-05 23:38:07,272] 60 root - INFO - Currently Fetching: 13273923798
+[2024-12-05 23:38:07,288] 60 root - INFO - Currently Fetching: 13271930745
+[2024-12-05 23:38:07,288] 60 root - INFO - Currently Fetching: 13269838707
+[2024-12-05 23:38:07,304] 60 root - INFO - Currently Fetching: 13269133747
+[2024-12-05 23:38:07,304] 60 root - INFO - Currently Fetching: 13268339747
+[2024-12-05 23:38:07,304] 60 root - INFO - Currently Fetching: 13268036721
+[2024-12-05 23:38:07,319] 60 root - INFO - Currently Fetching: 13265838723
+[2024-12-05 23:38:07,319] 60 root - INFO - Currently Fetching: 13265637744
+[2024-12-05 23:38:07,319] 60 root - INFO - Currently Fetching: 13264429779
+[2024-12-05 23:38:07,335] 60 root - INFO - Currently Fetching: 13263334748
+[2024-12-05 23:38:07,335] 60 root - INFO - Currently Fetching: 13259139704
+[2024-12-05 23:38:07,367] 60 root - INFO - Currently Fetching: 13258921794
+[2024-12-05 23:38:07,375] 60 root - INFO - Currently Fetching: 13258731726
+[2024-12-05 23:38:07,380] 60 root - INFO - Currently Fetching: 13256923715
+[2024-12-05 23:38:07,384] 60 root - INFO - Currently Fetching: 13256835749
+[2024-12-05 23:38:07,389] 60 root - INFO - Currently Fetching: 13256426798
+[2024-12-05 23:38:07,394] 60 root - INFO - Currently Fetching: 13256035735
+[2024-12-05 23:38:07,394] 60 root - INFO - Currently Fetching: 13255639707
+[2024-12-05 23:38:07,394] 60 root - INFO - Currently Fetching: 13255025715
+[2024-12-05 23:38:07,409] 60 root - INFO - Currently Fetching: 13252332702
+[2024-12-05 23:38:07,425] 60 root - INFO - Currently Fetching: 13249332749
+[2024-12-05 23:38:07,433] 60 root - INFO - Currently Fetching: 13245923791
+[2024-12-05 23:38:07,445] 60 root - INFO - Currently Fetching: 13243431721
+[2024-12-05 23:38:07,449] 60 root - INFO - Currently Fetching: 13243022757
+[2024-12-05 23:38:07,452] 60 root - INFO - Currently Fetching: 13242629713
+[2024-12-05 23:38:07,466] 60 root - INFO - Currently Fetching: 13242133766
+[2024-12-05 23:38:07,469] 60 root - INFO - Currently Fetching: 13238234723
+[2024-12-05 23:38:07,471] 60 root - INFO - Currently Fetching: 13237623715
+[2024-12-05 23:38:07,476] 60 root - INFO - Currently Fetching: 13237424779
+[2024-12-05 23:38:07,477] 60 root - INFO - Currently Fetching: 13237131741
+[2024-12-05 23:38:07,477] 60 root - INFO - Currently Fetching: 13236924796
+[2024-12-05 23:38:07,493] 60 root - INFO - Currently Fetching: 13234724794
+[2024-12-05 23:38:07,493] 60 root - INFO - Currently Fetching: 13234527711
+[2024-12-05 23:38:07,508] 60 root - INFO - Currently Fetching: 13233130725
+[2024-12-05 23:38:07,508] 60 root - INFO - Currently Fetching: 13232827793
+[2024-12-05 23:38:07,531] 60 root - INFO - Currently Fetching: 13232623791
+[2024-12-05 23:38:07,531] 60 root - INFO - Currently Fetching: 13231431737
+[2024-12-05 23:38:07,531] 60 root - INFO - Currently Fetching: 13230730732
+[2024-12-05 23:38:07,547] 60 root - INFO - Currently Fetching: 13230024717
+[2024-12-05 23:38:07,556] 60 root - INFO - Currently Fetching: 13227230761
+[2024-12-05 23:38:07,556] 60 root - INFO - Currently Fetching: 13226037747
+[2024-12-05 23:38:07,571] 60 root - INFO - Currently Fetching: 13221939745
+[2024-12-05 23:38:07,571] 60 root - INFO - Currently Fetching: 13221524756
+[2024-12-05 23:38:07,587] 60 root - INFO - Currently Fetching: 13220139708
+[2024-12-05 23:38:07,587] 60 root - INFO - Currently Fetching: 13218334749
+[2024-12-05 23:38:07,587] 60 root - INFO - Currently Fetching: 13218026759
+[2024-12-05 23:38:07,587] 60 root - INFO - Currently Fetching: 13217938702
+[2024-12-05 23:38:07,603] 60 root - INFO - Currently Fetching: 13215532703
+[2024-12-05 23:38:07,620] 60 root - INFO - Currently Fetching: 13215330706
+[2024-12-05 23:38:07,629] 60 root - INFO - Currently Fetching: 13213832764
+[2024-12-05 23:38:07,635] 60 root - INFO - Currently Fetching: 13213432722
+[2024-12-05 23:38:07,635] 60 root - INFO - Currently Fetching: 13212931769
+[2024-12-05 23:38:07,645] 60 root - INFO - Currently Fetching: 13212828791
+[2024-12-05 23:38:07,653] 60 root - INFO - Currently Fetching: 13211733721
+[2024-12-05 23:38:07,653] 60 root - INFO - Currently Fetching: 13209233722
+[2024-12-05 23:38:07,666] 60 root - INFO - Currently Fetching: 13206533737
+[2024-12-05 23:38:07,666] 60 root - INFO - Currently Fetching: 13205937743
+[2024-12-05 23:38:07,681] 60 root - INFO - Currently Fetching: 13205537745
+[2024-12-05 23:38:07,681] 60 root - INFO - Currently Fetching: 13205425774
+[2024-12-05 23:38:07,697] 60 root - INFO - Currently Fetching: 13202524756
+[2024-12-05 23:38:07,699] 60 root - INFO - Currently Fetching: 13201933702
+[2024-12-05 23:38:07,699] 60 root - INFO - Currently Fetching: 13201420712
+[2024-12-05 23:38:07,713] 60 root - INFO - Currently Fetching: 10001531709
+[2024-12-05 23:38:07,720] 60 root - INFO - Currently Fetching: 13287985723
+[2024-12-05 23:38:07,732] 60 root - INFO - Currently Fetching: 13245331799
+[2024-12-05 23:38:07,746] 60 root - INFO - Currently Fetching: 13901138791
+[2024-12-05 23:38:07,757] 60 root - INFO - Currently Fetching: 13275983763
+[2024-12-05 23:38:07,760] 60 root - INFO - Currently Fetching: 13293039741
+[2024-12-05 23:38:07,764] 60 root - INFO - Currently Fetching: 13284430742
+[2024-12-05 23:38:07,787] 60 root - INFO - Currently Fetching: 13258626792
+[2024-12-05 23:38:07,792] 60 root - INFO - Currently Fetching: 13250223776
+[2024-12-05 23:38:09,097] 60 root - INFO - Currently Fetching: 13232633740
+[2024-12-05 23:38:10,480] 60 root - INFO - Currently Fetching: 13220332741
+[2024-12-05 23:38:11,177] 60 root - INFO - Currently Fetching: 13214132726

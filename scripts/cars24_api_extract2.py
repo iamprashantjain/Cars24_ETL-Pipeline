@@ -178,7 +178,7 @@ from logger.logging import logging
 
 def process_appointment(appointment):
     global count
-    print(count)
+    logging.info(f"Currently Fetching: {appointment}")
     count += 1
 
     # Cookies and headers for the request

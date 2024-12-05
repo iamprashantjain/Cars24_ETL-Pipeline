@@ -1,0 +1,93 @@
+[2024-12-05T14:08:34.871+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T14:08:34.893+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage_2 manual__2024-12-05T13:52:08.070862+00:00 [queued]>
+[2024-12-05T14:08:34.902+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage_2 manual__2024-12-05T13:52:08.070862+00:00 [queued]>
+[2024-12-05T14:08:34.904+0000] {taskinstance.py:2866} INFO - Starting attempt 4 of 4
+[2024-12-05T14:08:34.926+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_stage_2> on 2024-12-05 13:52:08.070862+00:00
+[2024-12-05T14:08:34.941+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'extract_stage_2', 'manual__2024-12-05T13:52:08.070862+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/cars24_api_etl_pipeline.py', '--cfg-path', '/tmp/tmpcv7k_s5a']
+[2024-12-05T14:08:34.934+0000] {standard_task_runner.py:72} INFO - Started process 1175 to run task
+[2024-12-05T14:08:34.942+0000] {standard_task_runner.py:105} INFO - Job 6: Subtask extract_stage_2
+[2024-12-05T14:08:35.355+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.extract_stage_2 manual__2024-12-05T13:52:08.070862+00:00 [running]> on host 6df944eb0d55
+[2024-12-05T14:08:35.493+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_stage_2' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T13:52:08.070862+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T13:52:08.070862+00:00'
+[2024-12-05T14:08:35.495+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-05T14:08:35.496+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-05T14:08:35.497+0000] {logging_mixin.py:190} INFO - Current task name:extract_stage_2 state:running start_date:2024-12-05 14:08:34.894856+00:00
+[2024-12-05T14:08:35.498+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-05T14:08:35.498+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T14:08:36.516+0000] {cars24_api_etl_pipeline.py:51} ERROR - Error reading the file /app/output/cars24_stage1_output.xlsx: 'appointmentId'
+[2024-12-05T14:08:36.517+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/cars24_api_etl_pipeline.py", line 47, in run_extract_stage_2_task
+    appointment_ids = temp_df['appointmentId'].tolist()
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+    raise KeyError(key)
+KeyError: 'appointmentId'
+[2024-12-05T14:08:36.624+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-05T14:08:36.625+0000] {logging_mixin.py:190} INFO - Task start:2024-12-05 14:08:34.894856+00:00 end:2024-12-05 14:08:36.621153+00:00 duration:1.726297
+[2024-12-05T14:08:36.626+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_stage_2> dag:<DAG: cars24_etl_pipeline> dagrun:<DagRun cars24_etl_pipeline @ 2024-12-05 13:52:08.070862+00:00: manual__2024-12-05T13:52:08.070862+00:00, state:running, queued_at: 2024-12-05 13:52:08.210478+00:00. externally triggered: True>
+[2024-12-05T14:08:36.627+0000] {logging_mixin.py:190} INFO - Failure caused by 'appointmentId'
+[2024-12-05T14:08:36.628+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=cars24_etl_pipeline, task_id=extract_stage_2, run_id=manual__2024-12-05T13:52:08.070862+00:00, execution_date=20241205T135208, start_date=20241205T140834, end_date=20241205T140836
+[2024-12-05T14:08:36.673+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T14:08:36.675+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 6 for task extract_stage_2 ('appointmentId'; 1175)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/cars24_api_etl_pipeline.py", line 47, in run_extract_stage_2_task
+    appointment_ids = temp_df['appointmentId'].tolist()
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+    raise KeyError(key)
+KeyError: 'appointmentId'
+[2024-12-05T14:08:36.729+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-05T14:08:36.844+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T14:08:36.850+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

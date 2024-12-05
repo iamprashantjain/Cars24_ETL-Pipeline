@@ -15,11 +15,11 @@ COPY requirements.txt /app/
 
 # Install system dependencies and Python packages
 RUN apt-get update && \
-    apt-get install -y curl && \
+    apt-get install -y curl g++ libclang-dev cmake && \
     apt-get clean && \
     pip install --upgrade pip && \
     pip install -r requirements.txt && \
-    pip install apache-airflow[flask] flask-session pendulum==2.1.2
+    pip install apache-airflow[flask] flask-session pendulum==2.1.2 pyarrow
 
 # Set Airflow-specific environment variables
 ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=99999999
