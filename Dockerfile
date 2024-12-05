@@ -5,6 +5,7 @@ USER root
 
 # Set environment variable for Airflow home directory
 ENV AIRFLOW_HOME=/app/airflow
+ENV PYTHONPATH="${PYTHONPATH}:/app"
 
 # Set working directory
 WORKDIR /app
@@ -21,7 +22,7 @@ RUN apt-get update && \
     pip install apache-airflow[flask] flask-session pendulum==2.1.2
 
 # Set Airflow-specific environment variables
-ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=10000
+ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=99999999
 ENV AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
 
 # Copy the rest of your application code

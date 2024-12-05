@@ -1,0 +1,203 @@
+[2024-12-05T07:40:55.398+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T07:40:55.429+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage_1 manual__2024-12-05T07:40:22.388327+00:00 [queued]>
+[2024-12-05T07:40:55.449+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage_1 manual__2024-12-05T07:40:22.388327+00:00 [queued]>
+[2024-12-05T07:40:55.450+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2024-12-05T07:40:55.502+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_stage_1> on 2024-12-05 07:40:22.388327+00:00
+[2024-12-05T07:40:55.514+0000] {standard_task_runner.py:72} INFO - Started process 392 to run task
+[2024-12-05T07:40:55.525+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'extract_stage_1', 'manual__2024-12-05T07:40:22.388327+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/cars24_api_etl_pipeline.py', '--cfg-path', '/tmp/tmplxww0k_9']
+[2024-12-05T07:40:55.532+0000] {standard_task_runner.py:105} INFO - Job 2: Subtask extract_stage_1
+[2024-12-05T07:40:56.127+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.extract_stage_1 manual__2024-12-05T07:40:22.388327+00:00 [running]> on host 9797b68930d7
+[2024-12-05T07:40:56.570+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_stage_1' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T07:40:22.388327+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T07:40:22.388327+00:00'
+[2024-12-05T07:40:56.596+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-05T07:40:56.598+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-05T07:40:56.601+0000] {logging_mixin.py:190} INFO - Current task name:extract_stage_1 state:running start_date:2024-12-05 07:40:55.430843+00:00
+[2024-12-05T07:40:56.602+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-05T07:40:56.604+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T07:40:56.614+0000] {cars24_api_etl_pipeline.py:29} INFO - Starting Extract Stage 1 with city IDs: range(150, 200)
+[2024-12-05T07:40:56.872+0000] {cars24_api_extract1.py:92} INFO - Appointment ID extraction started
+[2024-12-05T07:40:56.878+0000] {logging_mixin.py:190} INFO - 150
+[2024-12-05T07:40:56.881+0000] {logging_mixin.py:190} INFO - 151
+[2024-12-05T07:40:56.887+0000] {logging_mixin.py:190} INFO - 152
+[2024-12-05T07:40:56.893+0000] {logging_mixin.py:190} INFO - 153
+[2024-12-05T07:40:56.897+0000] {logging_mixin.py:190} INFO - 154
+[2024-12-05T07:40:56.900+0000] {logging_mixin.py:190} INFO - 155
+[2024-12-05T07:40:56.919+0000] {logging_mixin.py:190} INFO - 156
+[2024-12-05T07:40:56.943+0000] {logging_mixin.py:190} INFO - 157
+[2024-12-05T07:40:56.960+0000] {logging_mixin.py:190} INFO - 158
+[2024-12-05T07:40:57.000+0000] {logging_mixin.py:190} INFO - 159
+[2024-12-05T07:40:57.013+0000] {logging_mixin.py:190} INFO - 160
+[2024-12-05T07:40:57.034+0000] {logging_mixin.py:190} INFO - 161
+[2024-12-05T07:40:57.043+0000] {logging_mixin.py:190} INFO - 162
+[2024-12-05T07:40:57.046+0000] {logging_mixin.py:190} INFO - 163
+[2024-12-05T07:40:57.058+0000] {logging_mixin.py:190} INFO - 164
+[2024-12-05T07:40:57.062+0000] {logging_mixin.py:190} INFO - 165
+[2024-12-05T07:40:57.091+0000] {logging_mixin.py:190} INFO - 167
+[2024-12-05T07:40:57.092+0000] {logging_mixin.py:190} INFO - 166
+[2024-12-05T07:40:57.094+0000] {logging_mixin.py:190} INFO - 168
+[2024-12-05T07:40:57.110+0000] {logging_mixin.py:190} INFO - 169
+[2024-12-05T07:40:57.130+0000] {logging_mixin.py:190} INFO - 170
+[2024-12-05T07:40:57.133+0000] {logging_mixin.py:190} INFO - 171
+[2024-12-05T07:40:57.257+0000] {logging_mixin.py:190} INFO - 175
+[2024-12-05T07:40:57.210+0000] {logging_mixin.py:190} INFO - 173
+[2024-12-05T07:40:57.239+0000] {logging_mixin.py:190} INFO - 174
+[2024-12-05T07:40:57.192+0000] {logging_mixin.py:190} INFO - 172
+[2024-12-05T07:40:57.265+0000] {logging_mixin.py:190} INFO - 176
+[2024-12-05T07:40:57.322+0000] {logging_mixin.py:190} INFO - 177
+[2024-12-05T07:40:57.325+0000] {logging_mixin.py:190} INFO - 178
+[2024-12-05T07:40:57.429+0000] {logging_mixin.py:190} INFO - 179
+[2024-12-05T07:40:57.681+0000] {logging_mixin.py:190} INFO - 180
+[2024-12-05T07:40:57.718+0000] {logging_mixin.py:190} INFO - 181
+[2024-12-05T07:40:57.850+0000] {logging_mixin.py:190} INFO - 182
+[2024-12-05T07:40:57.874+0000] {logging_mixin.py:190} INFO - 183
+[2024-12-05T07:40:57.955+0000] {logging_mixin.py:190} INFO - 184
+[2024-12-05T07:40:57.987+0000] {logging_mixin.py:190} INFO - 185
+[2024-12-05T07:40:58.020+0000] {logging_mixin.py:190} INFO - 186
+[2024-12-05T07:40:58.333+0000] {logging_mixin.py:190} INFO - 187
+[2024-12-05T07:40:58.368+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.378+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.338+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.476+0000] {logging_mixin.py:190} INFO - 188
+[2024-12-05T07:40:58.704+0000] {logging_mixin.py:190} INFO - 189
+[2024-12-05T07:40:58.806+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.869+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.875+0000] {logging_mixin.py:190} INFO - 190
+[2024-12-05T07:40:58.882+0000] {logging_mixin.py:190} INFO - 191
+[2024-12-05T07:40:58.904+0000] {logging_mixin.py:190} INFO - 192
+[2024-12-05T07:40:58.917+0000] {logging_mixin.py:190} INFO - 193
+[2024-12-05T07:40:58.927+0000] {logging_mixin.py:190} INFO - 194
+[2024-12-05T07:40:58.940+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:58.942+0000] {logging_mixin.py:190} INFO - 195
+[2024-12-05T07:40:58.954+0000] {logging_mixin.py:190} INFO - 196
+[2024-12-05T07:40:58.969+0000] {logging_mixin.py:190} INFO - 197
+[2024-12-05T07:40:58.976+0000] {logging_mixin.py:190} INFO - 198
+[2024-12-05T07:40:58.980+0000] {logging_mixin.py:190} INFO - 199
+[2024-12-05T07:40:58.983+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.139+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.307+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.333+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.363+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.364+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.376+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.382+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.395+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.400+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.417+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.407+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.427+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.433+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.444+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.446+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.454+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.460+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.474+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.480+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.483+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.486+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.764+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.835+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:40:59.960+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.411+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.444+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.530+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.556+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.571+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.579+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.593+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.615+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.626+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.652+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.675+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.707+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.759+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.864+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:00.945+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:01.032+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:01.136+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:01.176+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:01.254+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-05T07:41:01.590+0000] {cars24_api_extract1.py:102} INFO - Appointment ID extraction finished
+[2024-12-05T07:41:01.710+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/cars24_api_etl_pipeline.py", line 30, in run_extract_stage_1_task
+    return run_extract_stage_1(city_ids)
+  File "/app/scripts/cars24_api_extract1.py", line 106, in run_extract_stage_1
+    final_df.to_excel(output_file_path, index=False)
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/generic.py", line 2252, in to_excel
+    formatter.write(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/formats/excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_openpyxl.py", line 56, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+[2024-12-05T07:41:02.189+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-05T07:41:02.220+0000] {logging_mixin.py:190} INFO - Task start:2024-12-05 07:40:55.430843+00:00 end:2024-12-05 07:41:02.172067+00:00 duration:6.741224
+[2024-12-05T07:41:02.251+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_stage_1> dag:<DAG: cars24_etl_pipeline> dagrun:<DagRun cars24_etl_pipeline @ 2024-12-05 07:40:22.388327+00:00: manual__2024-12-05T07:40:22.388327+00:00, state:running, queued_at: 2024-12-05 07:40:23.004150+00:00. externally triggered: True>
+[2024-12-05T07:41:02.265+0000] {logging_mixin.py:190} INFO - Failure caused by No module named 'openpyxl'
+[2024-12-05T07:41:02.300+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=cars24_etl_pipeline, task_id=extract_stage_1, run_id=manual__2024-12-05T07:40:22.388327+00:00, execution_date=20241205T074022, start_date=20241205T074055, end_date=20241205T074102
+[2024-12-05T07:41:02.586+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T07:41:02.626+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 2 for task extract_stage_1 (No module named 'openpyxl'; 392)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/cars24_api_etl_pipeline.py", line 30, in run_extract_stage_1_task
+    return run_extract_stage_1(city_ids)
+  File "/app/scripts/cars24_api_extract1.py", line 106, in run_extract_stage_1
+    final_df.to_excel(output_file_path, index=False)
+  File "/usr/local/lib/python3.8/site-packages/pandas/core/generic.py", line 2252, in to_excel
+    formatter.write(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/formats/excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_openpyxl.py", line 56, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+[2024-12-05T07:41:02.889+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-05T07:41:02.996+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T07:41:03.005+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
