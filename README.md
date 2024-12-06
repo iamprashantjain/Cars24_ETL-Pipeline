@@ -27,3 +27,6 @@ cars24_data_etl_pipeline/
 
 
 - docker-compose build --no-cache && docker-compose up
+
+
+- docker exec -it cars24_etl_pipeline bash

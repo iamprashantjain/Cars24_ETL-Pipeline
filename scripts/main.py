@@ -8,6 +8,11 @@ from collections import defaultdict
 from exception.exception import customexception
 from logger.logging import logging
 
+#configuration
+start_city_id=100
+end_city_id=300
+max_workers=100
+
 # Stage 1: Fetch appointment IDs for each city concurrently
 def fetch_appointment_ids(city_id):
     headers = {
@@ -36,7 +41,8 @@ def fetch_appointment_ids(city_id):
         logging.info(f"Error fetching data for city_id {city_id}: {e}")
         return []  # Return an empty list in case of error
 
-def fetch_all_appointment_ids(start, end, max_workers=500):
+#fetch appointment id async
+def fetch_all_appointment_ids(start, end, max_workers=max_workers):
     appointment_ids = []
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -164,8 +170,8 @@ def process_appointment(appointment):
     except customexception as e:
         return pd.DataFrame()
 
-
-def run_extract_stage_2(appointment_ids, max_workers=500):
+#fetch car details async
+def run_extract_stage_2(appointment_ids, max_workers=max_workers):
     final_df = pd.DataFrame()
 
     # Running threading logic inside the function
@@ -183,9 +189,8 @@ def run_extract_stage_2(appointment_ids, max_workers=500):
 
     return final_df
 
-
 # Combined function for Stage 1 and Stage 2
-def run_extract_stage_1_and_2(start_city_id=100, end_city_id=200, max_workers=500):
+def run_extract_stage_1_and_2(start_city_id=start_city_id, end_city_id=end_city_id, max_workers=max_workers):
     # Stage 1: Fetch appointment IDs
     logging.info("Starting Stage 1: Fetching appointment IDs")
     appointment_ids = fetch_all_appointment_ids(start_city_id, end_city_id)
@@ -198,10 +203,15 @@ def run_extract_stage_1_and_2(start_city_id=100, end_city_id=200, max_workers=50
 
     return final_df
 
+#function to be called in dag script
+def execute_pipeline(start_city_id=start_city_id, end_city_id=end_city_id, max_workers=max_workers, output_path='/app/output/cars24_final_output.xlsx'):
+    logging.info("Starting extract stage 1 and 2")
+    final_df = run_extract_stage_1_and_2(start_city_id, end_city_id, max_workers)
+    logging.info("Attempting to save Excel file")
+    final_df.to_excel(output_path, index=False)
+    logging.info(f"Data saved to {output_path}")
+    return output_path
 
 
 if __name__ == "__main__":
-    final_df = run_extract_stage_1_and_2()
-    final_output_path = '/app/output/cars24_final_output.xlsx'
-    final_df.to_excel(final_output_path, index=False)
-    logging.info(f"Data saved to {final_output_path}")
+    execute_pipeline()
