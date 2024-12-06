@@ -3793,3 +3793,843 @@
 [2024-12-05T19:33:05.866+0000] {logging_mixin.py:190} INFO - [2024-12-05T19:33:05.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-12-05T19:33:05.879+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-12-05T19:33:05.941+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.139 seconds
+[2024-12-05T20:13:01.625+0000] {processor.py:186} INFO - Started process (PID=92) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:13:01.664+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:13:01.667+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:13:01.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:13:01.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:13:01.689+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.075 seconds
+[2024-12-05T20:14:44.507+0000] {processor.py:186} INFO - Started process (PID=164) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:14:44.544+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:14:44.548+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:14:44.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:14:44.552+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:14:44.564+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.067 seconds
+[2024-12-05T20:16:26.511+0000] {processor.py:186} INFO - Started process (PID=248) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:16:26.513+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:16:26.518+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:16:26.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:16:26.523+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:16:26.541+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.040 seconds
+[2024-12-05T20:17:56.806+0000] {processor.py:186} INFO - Started process (PID=330) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:17:56.809+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:17:56.812+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:17:56.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:17:56.817+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:17:56.830+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T20:19:27.098+0000] {processor.py:186} INFO - Started process (PID=411) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:19:27.100+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:19:27.103+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:19:27.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:19:27.107+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:19:27.120+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T20:20:43.674+0000] {processor.py:186} INFO - Started process (PID=491) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:20:43.681+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:20:43.685+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:20:43.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:20:43.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:20:43.720+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.063 seconds
+[2024-12-05T20:21:59.882+0000] {processor.py:186} INFO - Started process (PID=563) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:21:59.883+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:21:59.887+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:21:59.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:21:59.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:21:59.906+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T20:23:13.593+0000] {processor.py:186} INFO - Started process (PID=635) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:23:13.596+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:23:13.610+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:23:13.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:23:13.622+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:23:13.688+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.118 seconds
+[2024-12-05T20:24:31.660+0000] {processor.py:186} INFO - Started process (PID=708) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:24:31.665+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:24:31.668+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:24:31.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:24:31.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:24:31.687+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T20:25:49.221+0000] {processor.py:186} INFO - Started process (PID=788) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:25:49.222+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:25:49.225+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:25:49.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:25:49.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:25:49.243+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T20:27:05.161+0000] {processor.py:186} INFO - Started process (PID=861) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:27:05.162+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:27:05.165+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:27:05.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:27:05.170+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:27:05.182+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T20:28:22.828+0000] {processor.py:186} INFO - Started process (PID=933) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:28:22.829+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:28:22.833+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:28:22.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:28:22.837+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:28:22.850+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T20:29:40.354+0000] {processor.py:186} INFO - Started process (PID=1015) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:29:40.356+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:29:40.359+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:29:40.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:29:40.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:29:40.376+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T20:30:58.756+0000] {processor.py:186} INFO - Started process (PID=1088) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:30:58.767+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:30:58.773+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:30:58.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:30:58.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:30:58.796+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.073 seconds
+[2024-12-05T20:32:21.092+0000] {processor.py:186} INFO - Started process (PID=1162) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:32:21.094+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:32:21.099+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:32:21.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:32:21.106+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:32:21.130+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.055 seconds
+[2024-12-05T20:33:37.417+0000] {processor.py:186} INFO - Started process (PID=1241) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:33:37.419+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:33:37.422+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:33:37.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:33:37.427+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:33:37.440+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T20:34:52.355+0000] {processor.py:186} INFO - Started process (PID=1313) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:34:52.358+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:34:52.362+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:34:52.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:34:52.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:34:52.381+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.037 seconds
+[2024-12-05T20:36:05.296+0000] {processor.py:186} INFO - Started process (PID=1385) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:36:05.298+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:36:05.301+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:36:05.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:36:05.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:36:05.318+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T20:37:22.554+0000] {processor.py:186} INFO - Started process (PID=1458) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:37:22.556+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:37:22.560+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:37:22.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:37:22.565+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:37:22.577+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T20:38:35.950+0000] {processor.py:186} INFO - Started process (PID=1530) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:38:35.951+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:38:35.955+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:38:35.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:38:35.962+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:38:35.977+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T20:39:54.499+0000] {processor.py:186} INFO - Started process (PID=1612) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:39:54.510+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:39:54.540+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:39:54.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:39:54.548+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:39:54.567+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.086 seconds
+[2024-12-05T20:41:07.842+0000] {processor.py:186} INFO - Started process (PID=1683) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:41:07.844+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:41:07.847+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:41:07.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:41:07.852+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:41:07.864+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T20:42:25.826+0000] {processor.py:186} INFO - Started process (PID=1755) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:42:25.828+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:42:25.831+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:42:25.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:42:25.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:42:25.848+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T20:43:41.520+0000] {processor.py:186} INFO - Started process (PID=1834) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:43:41.522+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:43:41.525+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:43:41.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:43:41.529+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:43:41.542+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T20:45:01.313+0000] {processor.py:186} INFO - Started process (PID=1908) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:45:01.315+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:45:01.321+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:45:01.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:45:01.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:45:01.340+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.038 seconds
+[2024-12-05T20:46:21.772+0000] {processor.py:186} INFO - Started process (PID=1982) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:46:21.774+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:46:21.777+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:46:21.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:46:21.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:46:21.794+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T20:47:43.573+0000] {processor.py:186} INFO - Started process (PID=2064) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:47:43.575+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:47:43.578+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:47:43.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:47:43.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:47:43.595+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.057 seconds
+[2024-12-05T20:48:58.868+0000] {processor.py:186} INFO - Started process (PID=2136) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:48:58.871+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:48:58.875+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:48:58.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:48:58.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:48:58.900+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.045 seconds
+[2024-12-05T20:50:14.096+0000] {processor.py:186} INFO - Started process (PID=2209) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:50:14.098+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:50:14.102+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:50:14.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:50:14.106+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:50:14.120+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T20:51:27.603+0000] {processor.py:186} INFO - Started process (PID=2280) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:51:27.604+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:51:27.608+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:51:27.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:51:27.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:51:27.625+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T20:52:46.355+0000] {processor.py:186} INFO - Started process (PID=2359) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:52:46.357+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:52:46.362+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:52:46.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:52:46.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:52:46.382+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.040 seconds
+[2024-12-05T20:54:08.158+0000] {processor.py:186} INFO - Started process (PID=2434) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:54:08.160+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:54:08.163+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:54:08.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:54:08.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:54:08.180+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T20:55:22.828+0000] {processor.py:186} INFO - Started process (PID=2505) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:55:22.830+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:55:22.835+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:55:22.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:55:22.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:55:22.856+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.046 seconds
+[2024-12-05T20:56:46.340+0000] {processor.py:186} INFO - Started process (PID=2588) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:56:46.342+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:56:46.345+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:56:46.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:56:46.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:56:46.366+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T20:57:59.697+0000] {processor.py:186} INFO - Started process (PID=2659) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:57:59.699+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:57:59.703+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:57:59.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:57:59.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:57:59.722+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T20:59:18.308+0000] {processor.py:186} INFO - Started process (PID=2732) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:59:18.309+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T20:59:18.313+0000] {logging_mixin.py:190} INFO - [2024-12-05T20:59:18.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:59:18.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T20:59:18.330+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T21:00:33.499+0000] {processor.py:186} INFO - Started process (PID=2803) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:00:33.501+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:00:33.504+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:00:33.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:00:33.509+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:00:33.521+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T21:01:43.840+0000] {processor.py:186} INFO - Started process (PID=2880) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:01:43.841+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:01:43.845+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:01:43.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:01:43.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:01:43.861+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T21:03:01.537+0000] {processor.py:186} INFO - Started process (PID=2953) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:03:01.539+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:03:01.543+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:03:01.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:03:01.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:03:01.579+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.063 seconds
+[2024-12-05T21:04:22.994+0000] {processor.py:186} INFO - Started process (PID=3027) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:04:22.996+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:04:23.001+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:04:23.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:04:23.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:04:23.025+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.043 seconds
+[2024-12-05T21:05:45.094+0000] {processor.py:186} INFO - Started process (PID=3109) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:05:45.096+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:05:45.099+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:05:45.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:05:45.104+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:05:45.122+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.037 seconds
+[2024-12-05T21:06:59.590+0000] {processor.py:186} INFO - Started process (PID=3180) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:06:59.592+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:06:59.595+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:06:59.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:06:59.600+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:06:59.612+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T21:08:17.374+0000] {processor.py:186} INFO - Started process (PID=3252) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:08:17.376+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:08:17.379+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:08:17.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:08:17.384+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:08:17.396+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T21:09:37.171+0000] {processor.py:186} INFO - Started process (PID=3326) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:09:37.173+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:09:37.177+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:09:37.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:09:37.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:09:37.201+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.043 seconds
+[2024-12-05T21:10:59.915+0000] {processor.py:186} INFO - Started process (PID=3410) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:10:59.917+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:10:59.921+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:10:59.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:10:59.926+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:10:59.939+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:12:11.593+0000] {processor.py:186} INFO - Started process (PID=3482) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:12:11.602+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:12:11.608+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:12:11.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:12:11.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:12:11.663+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.093 seconds
+[2024-12-05T21:13:25.130+0000] {processor.py:186} INFO - Started process (PID=3554) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:13:25.131+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:13:25.135+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:13:25.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:13:25.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:13:25.153+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T21:14:41.864+0000] {processor.py:186} INFO - Started process (PID=3632) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:14:41.872+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:14:41.886+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:14:41.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:14:41.893+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:14:41.910+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.060 seconds
+[2024-12-05T21:15:58.224+0000] {processor.py:186} INFO - Started process (PID=3705) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:15:58.226+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:15:58.230+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:15:58.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:15:58.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:15:58.248+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:17:09.562+0000] {processor.py:186} INFO - Started process (PID=3775) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:17:09.564+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:17:09.572+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:17:09.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:17:09.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:17:09.599+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.059 seconds
+[2024-12-05T21:18:26.794+0000] {processor.py:186} INFO - Started process (PID=3849) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:18:26.797+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:18:26.802+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:18:26.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:18:26.809+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:18:26.834+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.066 seconds
+[2024-12-05T21:19:45.020+0000] {processor.py:186} INFO - Started process (PID=3929) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:19:45.022+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:19:45.026+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:19:45.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:19:45.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:19:45.043+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.043 seconds
+[2024-12-05T21:21:06.315+0000] {processor.py:186} INFO - Started process (PID=4003) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:21:06.317+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:21:06.320+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:21:06.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:21:06.325+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:21:06.338+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T21:22:19.540+0000] {processor.py:186} INFO - Started process (PID=4073) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:22:19.542+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:22:19.546+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:22:19.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:22:19.552+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:22:19.565+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T21:23:36.274+0000] {processor.py:186} INFO - Started process (PID=4146) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:23:36.275+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:23:36.278+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:23:36.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:23:36.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:23:36.295+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T21:24:56.836+0000] {processor.py:186} INFO - Started process (PID=4226) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:24:56.838+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:24:56.843+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:24:56.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:24:56.851+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:24:56.876+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.050 seconds
+[2024-12-05T21:26:14.641+0000] {processor.py:186} INFO - Started process (PID=4299) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:26:14.648+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:26:14.658+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:26:14.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:26:14.680+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:26:14.704+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.085 seconds
+[2024-12-05T21:27:34.242+0000] {processor.py:186} INFO - Started process (PID=4372) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:27:34.244+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:27:34.247+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:27:34.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:27:34.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:27:34.266+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T21:28:53.511+0000] {processor.py:186} INFO - Started process (PID=4453) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:28:53.513+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:28:53.516+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:28:53.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:28:53.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:28:53.534+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:30:07.257+0000] {processor.py:186} INFO - Started process (PID=4526) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:30:07.263+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:30:07.272+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:30:07.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:30:07.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:30:07.333+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.110 seconds
+[2024-12-05T21:31:28.881+0000] {processor.py:186} INFO - Started process (PID=4600) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:31:28.883+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:31:28.888+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:31:28.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:31:28.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:31:28.911+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.044 seconds
+[2024-12-05T21:32:47.186+0000] {processor.py:186} INFO - Started process (PID=4680) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:32:47.191+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:32:47.195+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:32:47.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:32:47.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:32:47.216+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.051 seconds
+[2024-12-05T21:34:06.159+0000] {processor.py:186} INFO - Started process (PID=4754) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:34:06.161+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:34:06.165+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:34:06.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:34:06.170+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:34:06.182+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:35:23.555+0000] {processor.py:186} INFO - Started process (PID=4826) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:35:23.557+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:35:23.561+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:35:23.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:35:23.565+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:35:23.578+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T21:36:45.272+0000] {processor.py:186} INFO - Started process (PID=4909) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:36:45.277+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:36:45.281+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:36:45.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:36:45.285+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:36:45.298+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.042 seconds
+[2024-12-05T21:38:13.411+0000] {processor.py:186} INFO - Started process (PID=4987) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:38:13.431+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:38:13.434+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:38:13.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:38:13.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:38:13.453+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.053 seconds
+[2024-12-05T21:39:30.265+0000] {processor.py:186} INFO - Started process (PID=5059) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:39:30.267+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:39:30.271+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:39:30.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:39:30.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:39:30.288+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T21:40:55.179+0000] {processor.py:186} INFO - Started process (PID=5144) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:40:55.183+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:40:55.192+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:40:55.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:40:55.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:40:55.244+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.079 seconds
+[2024-12-05T21:42:08.183+0000] {processor.py:186} INFO - Started process (PID=5215) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:42:08.187+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:42:08.197+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:42:08.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:42:08.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:42:08.233+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.128 seconds
+[2024-12-05T21:43:26.687+0000] {processor.py:186} INFO - Started process (PID=5288) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:43:26.689+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:43:26.693+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:43:26.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:43:26.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:43:26.712+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:44:47.844+0000] {processor.py:186} INFO - Started process (PID=5369) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:44:47.846+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:44:47.850+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:44:47.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:44:47.855+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:44:47.874+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.041 seconds
+[2024-12-05T21:46:11.138+0000] {processor.py:186} INFO - Started process (PID=5444) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:46:11.149+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:46:11.164+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:46:11.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:46:11.170+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:46:11.217+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.102 seconds
+[2024-12-05T21:47:32.772+0000] {processor.py:186} INFO - Started process (PID=5519) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:47:32.773+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:47:32.777+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:47:32.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:47:32.782+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:47:32.798+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T21:48:58.374+0000] {processor.py:186} INFO - Started process (PID=5602) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:48:58.382+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:48:58.395+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:48:58.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:48:58.418+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:48:58.452+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.100 seconds
+[2024-12-05T21:50:15.142+0000] {processor.py:186} INFO - Started process (PID=5674) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:50:15.144+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:50:15.149+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:50:15.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:50:15.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:50:15.166+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T21:51:32.015+0000] {processor.py:186} INFO - Started process (PID=5748) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:51:32.018+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:51:32.026+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:51:32.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:51:32.042+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:51:32.069+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.068 seconds
+[2024-12-05T21:52:43.815+0000] {processor.py:186} INFO - Started process (PID=5818) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:52:43.818+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:52:43.831+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:52:43.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:52:43.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:52:43.894+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.110 seconds
+[2024-12-05T21:54:02.532+0000] {processor.py:186} INFO - Started process (PID=5897) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:54:02.534+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:54:02.537+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:54:02.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:54:02.542+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:54:02.555+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T21:55:26.373+0000] {processor.py:186} INFO - Started process (PID=5974) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:55:26.374+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:55:26.379+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:55:26.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:55:26.389+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:55:26.408+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.043 seconds
+[2024-12-05T21:56:44.176+0000] {processor.py:186} INFO - Started process (PID=6046) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:56:44.178+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:56:44.181+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:56:44.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:56:44.190+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:56:44.206+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.039 seconds
+[2024-12-05T21:58:01.716+0000] {processor.py:186} INFO - Started process (PID=6127) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:58:01.717+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:58:01.720+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:58:01.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:58:01.725+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:58:01.737+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T21:59:27.970+0000] {processor.py:186} INFO - Started process (PID=6203) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:59:27.972+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T21:59:27.977+0000] {logging_mixin.py:190} INFO - [2024-12-05T21:59:27.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:59:27.981+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T21:59:27.994+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T22:00:58.458+0000] {processor.py:186} INFO - Started process (PID=6286) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:00:58.537+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:00:58.541+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:00:58.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:00:58.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:00:58.562+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.113 seconds
+[2024-12-05T22:02:26.972+0000] {processor.py:186} INFO - Started process (PID=6362) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:02:26.974+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:02:26.978+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:02:26.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:02:26.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:02:26.995+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T22:03:45.409+0000] {processor.py:186} INFO - Started process (PID=6435) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:03:45.411+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:03:45.415+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:03:45.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:03:45.421+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:03:45.439+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.043 seconds
+[2024-12-05T22:04:57.625+0000] {processor.py:186} INFO - Started process (PID=6512) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:04:57.627+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:04:57.631+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:04:57.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:04:57.635+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:04:57.649+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T22:06:14.952+0000] {processor.py:186} INFO - Started process (PID=6585) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:06:14.956+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:06:14.964+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:06:14.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:06:14.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:06:14.999+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.064 seconds
+[2024-12-05T22:07:28.710+0000] {processor.py:186} INFO - Started process (PID=6656) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:07:28.712+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:07:28.717+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:07:28.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:07:28.723+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:07:28.734+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.037 seconds
+[2024-12-05T22:08:46.709+0000] {processor.py:186} INFO - Started process (PID=6729) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:08:46.711+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:08:46.714+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:08:46.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:08:46.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:08:46.731+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T22:10:06.310+0000] {processor.py:186} INFO - Started process (PID=6810) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:10:06.334+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:10:06.337+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:10:06.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:10:06.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:10:06.359+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.058 seconds
+[2024-12-05T22:11:31.783+0000] {processor.py:186} INFO - Started process (PID=6884) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:11:31.785+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:11:31.789+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:11:31.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:11:31.793+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:11:31.807+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T22:12:59.704+0000] {processor.py:186} INFO - Started process (PID=6968) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:12:59.706+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:12:59.711+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:12:59.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:12:59.716+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:12:59.734+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.039 seconds
+[2024-12-05T22:14:25.922+0000] {processor.py:186} INFO - Started process (PID=7043) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:14:25.925+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:14:25.929+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:14:25.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:14:25.936+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:14:25.953+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.045 seconds
+[2024-12-05T22:15:52.272+0000] {processor.py:186} INFO - Started process (PID=7118) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:15:52.274+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:15:52.279+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:15:52.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:15:52.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:15:52.303+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.041 seconds
+[2024-12-05T22:17:21.602+0000] {processor.py:186} INFO - Started process (PID=7201) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:17:21.604+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:17:21.607+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:17:21.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:17:21.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:17:21.632+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.042 seconds
+[2024-12-05T22:18:48.548+0000] {processor.py:186} INFO - Started process (PID=7278) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:18:48.561+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:18:48.565+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:18:48.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:18:48.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:18:48.585+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.047 seconds
+[2024-12-05T22:20:18.901+0000] {processor.py:186} INFO - Started process (PID=7364) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:20:18.903+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:20:18.907+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:20:18.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:20:18.912+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:20:18.925+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T22:21:39.815+0000] {processor.py:186} INFO - Started process (PID=7438) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:21:39.817+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:21:39.821+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:21:39.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:21:39.829+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:21:39.849+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.059 seconds
+[2024-12-05T22:23:01.130+0000] {processor.py:186} INFO - Started process (PID=7519) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:23:01.149+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:23:01.156+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:23:01.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:23:01.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:23:01.210+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.101 seconds
+[2024-12-05T22:24:20.101+0000] {processor.py:186} INFO - Started process (PID=7592) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:24:20.105+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:24:20.114+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:24:20.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:24:20.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:24:20.207+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.121 seconds
+[2024-12-05T22:25:37.923+0000] {processor.py:186} INFO - Started process (PID=7666) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:25:37.926+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:25:37.930+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:25:37.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:25:37.936+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:25:37.952+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.039 seconds
+[2024-12-05T22:27:02.243+0000] {processor.py:186} INFO - Started process (PID=7746) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:27:02.247+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:27:02.259+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:27:02.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:27:02.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:27:02.323+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.112 seconds
+[2024-12-05T22:28:20.526+0000] {processor.py:186} INFO - Started process (PID=7819) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:28:20.550+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:28:20.557+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:28:20.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:28:20.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:28:20.584+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.089 seconds
+[2024-12-05T22:29:39.519+0000] {processor.py:186} INFO - Started process (PID=7893) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:29:39.521+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:29:39.524+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:29:39.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:29:39.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:29:39.541+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T22:31:03.263+0000] {processor.py:186} INFO - Started process (PID=7974) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:31:03.268+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:31:03.272+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:31:03.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:31:03.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:31:03.296+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.056 seconds
+[2024-12-05T22:32:24.210+0000] {processor.py:186} INFO - Started process (PID=8046) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:32:24.213+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:32:24.218+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:32:24.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:32:24.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:32:24.264+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.067 seconds
+[2024-12-05T22:33:53.061+0000] {processor.py:186} INFO - Started process (PID=8124) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:33:53.063+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:33:53.067+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:33:53.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:33:53.073+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:33:53.085+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T22:35:14.039+0000] {processor.py:186} INFO - Started process (PID=8205) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:35:14.042+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:35:14.056+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:35:14.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:35:14.081+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:35:14.132+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.106 seconds
+[2024-12-05T22:36:37.077+0000] {processor.py:186} INFO - Started process (PID=8280) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:36:37.079+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:36:37.082+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:36:37.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:36:37.087+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:36:37.098+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T22:38:04.882+0000] {processor.py:186} INFO - Started process (PID=8365) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:38:04.884+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:38:04.887+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:38:04.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:38:04.892+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:38:04.904+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T22:39:26.026+0000] {processor.py:186} INFO - Started process (PID=8440) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:39:26.028+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:39:26.032+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:39:26.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:39:26.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:39:26.049+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T22:40:54.968+0000] {processor.py:186} INFO - Started process (PID=8516) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:40:54.971+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:40:54.975+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:40:54.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:40:54.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:40:55.009+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.053 seconds
+[2024-12-05T22:42:19.511+0000] {processor.py:186} INFO - Started process (PID=8599) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:42:19.512+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:42:19.515+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:42:19.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:42:19.520+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:42:19.532+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T22:43:44.025+0000] {processor.py:186} INFO - Started process (PID=8674) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:43:44.026+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:43:44.029+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:43:44.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:43:44.036+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:43:44.053+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.039 seconds
+[2024-12-05T22:45:05.377+0000] {processor.py:186} INFO - Started process (PID=8756) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:45:05.379+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:45:05.383+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:45:05.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:45:05.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:45:05.399+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T22:46:29.456+0000] {processor.py:186} INFO - Started process (PID=8832) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:46:29.479+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:46:29.483+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:46:29.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:46:29.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:46:29.500+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.053 seconds
+[2024-12-05T22:47:48.577+0000] {processor.py:186} INFO - Started process (PID=8905) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:47:48.579+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:47:48.583+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:47:48.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:47:48.588+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:47:48.601+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T22:49:09.907+0000] {processor.py:186} INFO - Started process (PID=8987) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:49:09.908+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:49:09.912+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:49:09.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:49:09.916+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:49:09.929+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T22:50:31.804+0000] {processor.py:186} INFO - Started process (PID=9061) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:50:31.806+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:50:31.811+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:50:31.810+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:50:31.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:50:31.837+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.045 seconds
+[2024-12-05T22:51:56.841+0000] {processor.py:186} INFO - Started process (PID=9135) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:51:56.842+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:51:56.846+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:51:56.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:51:56.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:51:56.866+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T22:53:17.260+0000] {processor.py:186} INFO - Started process (PID=9217) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:53:17.261+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:53:17.264+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:53:17.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:53:17.269+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:53:17.281+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T22:54:34.130+0000] {processor.py:186} INFO - Started process (PID=9289) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:54:34.133+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:54:34.142+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:54:34.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:54:34.150+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:54:34.184+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.072 seconds
+[2024-12-05T22:55:52.512+0000] {processor.py:186} INFO - Started process (PID=9362) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:55:52.538+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:55:52.552+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:55:52.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:55:52.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:55:52.608+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.118 seconds
+[2024-12-05T22:57:16.811+0000] {processor.py:186} INFO - Started process (PID=9443) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:57:16.813+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:57:16.818+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:57:16.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:57:16.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:57:16.837+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T22:58:33.430+0000] {processor.py:186} INFO - Started process (PID=9515) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:58:33.450+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:58:33.467+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:58:33.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:58:33.494+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:58:33.562+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.176 seconds
+[2024-12-05T22:59:53.993+0000] {processor.py:186} INFO - Started process (PID=9589) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:59:53.996+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T22:59:54.001+0000] {logging_mixin.py:190} INFO - [2024-12-05T22:59:54.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:59:54.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T22:59:54.026+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.044 seconds
+[2024-12-05T23:01:11.890+0000] {processor.py:186} INFO - Started process (PID=9671) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:01:11.891+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:01:11.894+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:01:11.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:01:11.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:01:11.913+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T23:02:27.515+0000] {processor.py:186} INFO - Started process (PID=9744) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:02:27.517+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:02:27.520+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:02:27.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:02:27.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:02:27.537+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:03:49.848+0000] {processor.py:186} INFO - Started process (PID=9817) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:03:49.857+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:03:49.864+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:03:49.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:03:49.878+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:03:49.909+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.081 seconds
+[2024-12-05T23:05:18.024+0000] {processor.py:186} INFO - Started process (PID=9900) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:05:18.028+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:05:18.040+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:05:18.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:05:18.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:05:18.075+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
+[2024-12-05T23:06:42.550+0000] {processor.py:186} INFO - Started process (PID=9975) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:06:42.553+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:06:42.557+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:06:42.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:06:42.563+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:06:42.580+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.044 seconds
+[2024-12-05T23:07:57.606+0000] {processor.py:186} INFO - Started process (PID=10047) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:07:57.608+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:07:57.612+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:07:57.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:07:57.617+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:07:57.632+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.038 seconds
+[2024-12-05T23:09:23.079+0000] {processor.py:186} INFO - Started process (PID=10129) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:09:23.106+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:09:23.125+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:09:23.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:09:23.133+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:09:23.177+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.110 seconds
+[2024-12-05T23:10:48.956+0000] {processor.py:186} INFO - Started process (PID=10205) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:10:48.967+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:10:48.971+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:10:48.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:10:48.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:10:48.993+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.045 seconds
+[2024-12-05T23:12:11.357+0000] {processor.py:186} INFO - Started process (PID=10288) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:12:11.359+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:12:11.363+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:12:11.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:12:11.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:12:11.401+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.058 seconds
+[2024-12-05T23:13:36.545+0000] {processor.py:186} INFO - Started process (PID=10363) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:13:36.547+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:13:36.550+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:13:36.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:13:36.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:13:36.566+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:15:01.211+0000] {processor.py:186} INFO - Started process (PID=10438) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:15:01.213+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:15:01.216+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:01.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:15:01.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:15:01.232+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T23:16:25.150+0000] {processor.py:186} INFO - Started process (PID=10521) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:16:25.152+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:16:25.157+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:16:25.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:16:25.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:16:25.173+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T23:17:43.351+0000] {processor.py:186} INFO - Started process (PID=10594) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:17:43.353+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:17:43.358+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:43.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:17:43.365+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:17:43.385+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.052 seconds
+[2024-12-05T23:19:01.109+0000] {processor.py:186} INFO - Started process (PID=10666) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:19:01.110+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:19:01.114+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:01.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:19:01.118+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:19:01.131+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:20:18.456+0000] {processor.py:186} INFO - Started process (PID=10744) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:20:18.458+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:20:18.461+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:18.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:20:18.466+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:20:18.478+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:21:39.979+0000] {processor.py:186} INFO - Started process (PID=10818) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:21:39.981+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:21:39.985+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:39.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:21:39.989+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:21:40.002+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:22:57.297+0000] {processor.py:186} INFO - Started process (PID=10889) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:22:57.298+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:22:57.301+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:57.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:22:57.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:22:57.318+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:24:27.264+0000] {processor.py:186} INFO - Started process (PID=10974) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:24:27.266+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:24:27.269+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:27.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:24:27.274+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:24:27.286+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:25:57.012+0000] {processor.py:186} INFO - Started process (PID=11051) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:25:57.014+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:25:57.018+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:57.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:25:57.023+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:25:57.034+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:27:18.263+0000] {processor.py:186} INFO - Started process (PID=11132) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:27:18.265+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:27:18.268+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:18.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:27:18.273+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:27:18.289+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.035 seconds
+[2024-12-05T23:28:42.429+0000] {processor.py:186} INFO - Started process (PID=11207) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:28:42.431+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:28:42.434+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:42.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:28:42.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:28:42.453+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T23:30:08.507+0000] {processor.py:186} INFO - Started process (PID=11290) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:30:08.508+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:30:08.512+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:30:08.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:30:08.530+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T23:31:27.937+0000] {processor.py:186} INFO - Started process (PID=11365) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:31:27.939+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:31:27.943+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:27.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:31:27.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:31:27.962+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T23:32:51.405+0000] {processor.py:186} INFO - Started process (PID=11440) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:32:51.410+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:32:51.416+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:51.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:32:51.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:32:51.443+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.050 seconds
+[2024-12-05T23:34:15.226+0000] {processor.py:186} INFO - Started process (PID=11523) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:34:15.228+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:34:15.232+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:15.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:34:15.238+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:34:15.252+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.047 seconds
+[2024-12-05T23:35:33.734+0000] {processor.py:186} INFO - Started process (PID=11596) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:35:33.771+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:35:33.774+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:33.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:35:33.779+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:35:33.791+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.067 seconds
+[2024-12-05T23:36:58.448+0000] {processor.py:186} INFO - Started process (PID=11671) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:36:58.451+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:36:58.457+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:58.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:36:58.468+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:36:58.498+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.063 seconds
+[2024-12-05T23:38:26.868+0000] {processor.py:186} INFO - Started process (PID=11755) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:38:26.910+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:38:26.913+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:26.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:38:26.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:38:26.932+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.074 seconds
+[2024-12-05T23:39:52.898+0000] {processor.py:186} INFO - Started process (PID=11830) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:39:52.967+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:39:52.971+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:52.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:39:52.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:39:52.988+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.099 seconds
+[2024-12-05T23:41:18.439+0000] {processor.py:186} INFO - Started process (PID=11915) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:41:18.440+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:41:18.443+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:18.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:41:18.448+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:41:18.461+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:42:40.272+0000] {processor.py:186} INFO - Started process (PID=11989) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:42:40.274+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:42:40.277+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:40.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:42:40.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:42:40.295+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.032 seconds
+[2024-12-05T23:44:09.291+0000] {processor.py:186} INFO - Started process (PID=12073) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:44:09.293+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:44:09.296+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:44:09.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:44:09.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:44:09.315+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.033 seconds
+[2024-12-05T23:45:31.766+0000] {processor.py:186} INFO - Started process (PID=12148) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:45:31.768+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:45:31.773+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:45:31.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:45:31.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:45:31.792+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.036 seconds
+[2024-12-05T23:47:01.756+0000] {processor.py:186} INFO - Started process (PID=12226) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:47:01.758+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:47:01.762+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:47:01.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:47:01.767+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:47:01.779+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:48:25.799+0000] {processor.py:186} INFO - Started process (PID=12310) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:48:25.801+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:48:25.805+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:48:25.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:48:25.812+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:48:25.829+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.046 seconds
+[2024-12-05T23:49:50.484+0000] {processor.py:186} INFO - Started process (PID=12385) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:49:50.486+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:49:50.489+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:49:50.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:49:50.494+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:49:50.506+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.030 seconds
+[2024-12-05T23:51:12.704+0000] {processor.py:186} INFO - Started process (PID=12465) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:51:12.706+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:51:12.709+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:51:12.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:51:12.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:51:12.727+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.031 seconds
+[2024-12-05T23:52:42.554+0000] {processor.py:186} INFO - Started process (PID=12543) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:52:42.557+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:52:42.565+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:52:42.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:52:42.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:52:42.606+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.067 seconds
+[2024-12-05T23:54:10.116+0000] {processor.py:186} INFO - Started process (PID=12619) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:54:10.118+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:54:10.122+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:54:10.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:54:10.128+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:54:10.142+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.038 seconds
+[2024-12-05T23:55:32.397+0000] {processor.py:186} INFO - Started process (PID=12701) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:55:32.399+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:55:32.402+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:55:32.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:55:32.406+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:55:32.423+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.034 seconds
+[2024-12-05T23:57:05.203+0000] {processor.py:186} INFO - Started process (PID=12778) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:57:05.205+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:57:05.209+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:57:05.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:57:05.216+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:57:05.231+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.042 seconds
+[2024-12-05T23:58:33.890+0000] {processor.py:186} INFO - Started process (PID=12862) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:58:33.892+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-05T23:58:33.905+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:58:33.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:58:33.912+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-05T23:58:33.940+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.080 seconds

@@ -1,0 +1,77 @@
+[2024-12-06T04:36:24.621+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T04:36:24.648+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.copy_file_to_local manual__2024-12-06T04:15:27.398411+00:00 [queued]>
+[2024-12-06T04:36:24.664+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.copy_file_to_local manual__2024-12-06T04:15:27.398411+00:00 [queued]>
+[2024-12-06T04:36:24.665+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-12-06T04:36:24.697+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): copy_file_to_local> on 2024-12-06 04:15:27.398411+00:00
+[2024-12-06T04:36:24.703+0000] {standard_task_runner.py:72} INFO - Started process 28263 to run task
+[2024-12-06T04:36:24.771+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'copy_file_to_local', 'manual__2024-12-06T04:15:27.398411+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/cars24_api_etl_pipeline.py', '--cfg-path', '/tmp/tmpzbfmjeev']
+[2024-12-06T04:36:24.774+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask copy_file_to_local
+[2024-12-06T04:36:25.163+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.copy_file_to_local manual__2024-12-06T04:15:27.398411+00:00 [running]> on host 252cdb13a655
+[2024-12-06T04:36:25.472+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='copy_file_to_local' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T04:15:27.398411+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-06T04:15:27.398411+00:00'
+[2024-12-06T04:36:25.478+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-06T04:36:25.479+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-06T04:36:25.479+0000] {logging_mixin.py:190} INFO - Current task name:copy_file_to_local state:running start_date:2024-12-06 04:36:24.649733+00:00
+[2024-12-06T04:36:25.480+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-06T04:36:25.481+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T04:36:25.485+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-06T04:36:25.491+0000] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'docker cp cars24_etl_pipeline:/app/output/cars24_final_output.xlsx /output/cars24_final_output.xlsx']
+[2024-12-06T04:36:25.505+0000] {subprocess.py:99} INFO - Output:
+[2024-12-06T04:36:25.523+0000] {subprocess.py:106} INFO - /bin/bash: docker: command not found
+[2024-12-06T04:36:25.525+0000] {subprocess.py:110} INFO - Command exited with return code 127
+[2024-12-06T04:36:25.534+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-12-06T04:36:25.556+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-06T04:36:25.557+0000] {logging_mixin.py:190} INFO - Task start:2024-12-06 04:36:24.649733+00:00 end:2024-12-06 04:36:25.554687+00:00 duration:0.904954
+[2024-12-06T04:36:25.558+0000] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): copy_file_to_local> dag:<DAG: cars24_etl_pipeline> dagrun:<DagRun cars24_etl_pipeline @ 2024-12-06 04:15:27.398411+00:00: manual__2024-12-06T04:15:27.398411+00:00, state:running, queued_at: 2024-12-06 04:15:27.716116+00:00. externally triggered: True>
+[2024-12-06T04:36:25.559+0000] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 127.
+[2024-12-06T04:36:25.559+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=cars24_etl_pipeline, task_id=copy_file_to_local, run_id=manual__2024-12-06T04:15:27.398411+00:00, execution_date=20241206T041527, start_date=20241206T043624, end_date=20241206T043625
+[2024-12-06T04:36:25.582+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T04:36:25.583+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 4 for task copy_file_to_local (Bash command failed. The command returned a non-zero exit code 127.; 28263)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-12-06T04:36:25.634+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-06T04:36:25.655+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T04:36:25.657+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

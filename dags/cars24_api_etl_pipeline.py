@@ -35,7 +35,6 @@
 #     )
 
 
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
@@ -73,13 +72,18 @@ with DAG(
         dag=dag,
     )
 
-    # Task 2: Copy the output file from Docker to the local system
-    copy_file_to_local_task = BashOperator(
-        task_id='copy_file_to_local',
-        bash_command='docker cp cars24_etl_pipeline:/app/output/cars24_final_output.xlsx /output/cars24_final_output.xlsx',
-        retries=1,
-        dag=dag,
-    )
+    
+    
+    # ==== since we have mapped volumes between docker container & local system so no need to create a task to copy ====
+    # ==== In order to write data to dbs or cloud we need to create a task ====
+    
+    # # Task 2: Copy the output file from Docker to the local system
+    # copy_file_to_local_task = BashOperator(
+    #     task_id='copy_file_to_local',
+    #     bash_command='docker cp cars24_etl_pipeline:/app/output/cars24_final_output.xlsx /output/cars24_final_output.xlsx',
+    #     retries=1,
+    #     dag=dag,
+    # )
 
-    # Define task dependencies
-    combined_extract_task >> copy_file_to_local_task
+    # # Define task dependencies
+    # combined_extract_task >> copy_file_to_local_task
