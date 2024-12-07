@@ -1,0 +1,236 @@
+[2024-12-07T18:25:05.066+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T18:25:05.199+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage manual__2024-12-07T18:24:29.417481+00:00 [queued]>
+[2024-12-07T18:25:05.279+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.extract_stage manual__2024-12-07T18:24:29.417481+00:00 [queued]>
+[2024-12-07T18:25:05.311+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2024-12-07T18:25:05.500+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_stage> on 2024-12-07 18:24:29.417481+00:00
+[2024-12-07T18:25:05.574+0000] {standard_task_runner.py:72} INFO - Started process 637 to run task
+[2024-12-07T18:25:05.688+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'extract_stage', 'manual__2024-12-07T18:24:29.417481+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpwyrgnby4']
+[2024-12-07T18:25:05.698+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask extract_stage
+[2024-12-07T18:25:06.416+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.extract_stage manual__2024-12-07T18:24:29.417481+00:00 [running]> on host bc0ae7fc4eec
+[2024-12-07T18:25:07.435+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_stage' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T18:24:29.417481+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T18:24:29.417481+00:00'
+[2024-12-07T18:25:07.562+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T18:25:07.609+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T18:25:07.641+0000] {logging_mixin.py:190} INFO - Current task name:extract_stage state:running start_date:2024-12-07 18:25:05.237441+00:00
+[2024-12-07T18:25:07.647+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-07T18:25:07.664+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T18:25:07.696+0000] {etl_dag.py:143} INFO - Starting combined Extract Stage 1 and Stage 2
+[2024-12-07T18:25:07.726+0000] {extract.py:208} INFO - Starting extract stage 1 and 2
+[2024-12-07T18:25:07.736+0000] {extract.py:195} INFO - Starting Stage 1: Fetching appointment IDs
+[2024-12-07T18:25:10.310+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.347+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.404+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.482+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.574+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.588+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.647+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.665+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:10.744+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.047+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.075+0000] {extract.py:59} ERROR - Error processing city_id 280: 'appointmentId'
+[2024-12-07T18:25:11.096+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.128+0000] {extract.py:59} ERROR - Error processing city_id 294: 'appointmentId'
+[2024-12-07T18:25:11.188+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.331+0000] {extract.py:59} ERROR - Error processing city_id 264: 'appointmentId'
+[2024-12-07T18:25:11.374+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.451+0000] {extract.py:59} ERROR - Error processing city_id 277: 'appointmentId'
+[2024-12-07T18:25:11.483+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.495+0000] {extract.py:59} ERROR - Error processing city_id 251: 'appointmentId'
+[2024-12-07T18:25:11.509+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.568+0000] {extract.py:59} ERROR - Error processing city_id 267: 'appointmentId'
+[2024-12-07T18:25:11.586+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.604+0000] {extract.py:59} ERROR - Error processing city_id 288: 'appointmentId'
+[2024-12-07T18:25:11.610+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.613+0000] {extract.py:59} ERROR - Error processing city_id 252: 'appointmentId'
+[2024-12-07T18:25:11.623+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.635+0000] {extract.py:59} ERROR - Error processing city_id 299: 'appointmentId'
+[2024-12-07T18:25:11.662+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.687+0000] {extract.py:57} INFO - Fetched 101 appointment IDs for city_id 290
+[2024-12-07T18:25:11.720+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.738+0000] {extract.py:59} ERROR - Error processing city_id 289: 'appointmentId'
+[2024-12-07T18:25:11.746+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.754+0000] {extract.py:59} ERROR - Error processing city_id 282: 'appointmentId'
+[2024-12-07T18:25:11.765+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.771+0000] {extract.py:59} ERROR - Error processing city_id 262: 'appointmentId'
+[2024-12-07T18:25:11.782+0000] {extract.py:59} ERROR - Error processing city_id 297: 'appointmentId'
+[2024-12-07T18:25:11.778+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.794+0000] {extract.py:59} ERROR - Error processing city_id 298: 'appointmentId'
+[2024-12-07T18:25:11.800+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.802+0000] {extract.py:59} ERROR - Error processing city_id 265: 'appointmentId'
+[2024-12-07T18:25:11.812+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.823+0000] {extract.py:59} ERROR - Error processing city_id 279: 'appointmentId'
+[2024-12-07T18:25:11.828+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.841+0000] {extract.py:59} ERROR - Error processing city_id 266: 'appointmentId'
+[2024-12-07T18:25:11.852+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.893+0000] {extract.py:59} ERROR - Error processing city_id 253: 'appointmentId'
+[2024-12-07T18:25:11.915+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.960+0000] {extract.py:59} ERROR - Error processing city_id 261: 'appointmentId'
+[2024-12-07T18:25:11.984+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:11.991+0000] {extract.py:59} ERROR - Error processing city_id 284: 'appointmentId'
+[2024-12-07T18:25:12.000+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.007+0000] {extract.py:59} ERROR - Error processing city_id 269: 'appointmentId'
+[2024-12-07T18:25:12.029+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.043+0000] {extract.py:59} ERROR - Error processing city_id 300: 'appointmentId'
+[2024-12-07T18:25:12.057+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.060+0000] {extract.py:59} ERROR - Error processing city_id 260: 'appointmentId'
+[2024-12-07T18:25:12.064+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.068+0000] {extract.py:59} ERROR - Error processing city_id 256: 'appointmentId'
+[2024-12-07T18:25:12.075+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.078+0000] {extract.py:59} ERROR - Error processing city_id 272: 'appointmentId'
+[2024-12-07T18:25:12.080+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.083+0000] {extract.py:59} ERROR - Error processing city_id 255: 'appointmentId'
+[2024-12-07T18:25:12.086+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.088+0000] {extract.py:59} ERROR - Error processing city_id 291: 'appointmentId'
+[2024-12-07T18:25:12.090+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.096+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.101+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.103+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.106+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.108+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.124+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.129+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.133+0000] {extract.py:59} ERROR - Error processing city_id 254: 'appointmentId'
+[2024-12-07T18:25:12.135+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.148+0000] {extract.py:59} ERROR - Error processing city_id 250: 'appointmentId'
+[2024-12-07T18:25:12.151+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.162+0000] {extract.py:59} ERROR - Error processing city_id 259: 'appointmentId'
+[2024-12-07T18:25:12.164+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.171+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.182+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.196+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.173+0000] {extract.py:59} ERROR - Error processing city_id 270: 'appointmentId'
+[2024-12-07T18:25:12.256+0000] {logging_mixin.py:190} WARNING - /usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py:1099 InsecureRequestWarning: Unverified HTTPS request is being made to host 'b2c-catalog-gateway.c24.tech'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+[2024-12-07T18:25:12.268+0000] {extract.py:59} ERROR - Error processing city_id 257: 'appointmentId'
+[2024-12-07T18:25:12.303+0000] {extract.py:59} ERROR - Error processing city_id 283: 'appointmentId'
+[2024-12-07T18:25:12.307+0000] {extract.py:59} ERROR - Error processing city_id 292: 'appointmentId'
+[2024-12-07T18:25:12.310+0000] {extract.py:59} ERROR - Error processing city_id 273: 'appointmentId'
+[2024-12-07T18:25:12.315+0000] {extract.py:59} ERROR - Error processing city_id 293: 'appointmentId'
+[2024-12-07T18:25:12.318+0000] {extract.py:59} ERROR - Error processing city_id 295: 'appointmentId'
+[2024-12-07T18:25:12.319+0000] {extract.py:59} ERROR - Error processing city_id 285: 'appointmentId'
+[2024-12-07T18:25:12.320+0000] {extract.py:59} ERROR - Error processing city_id 263: 'appointmentId'
+[2024-12-07T18:25:12.320+0000] {extract.py:59} ERROR - Error processing city_id 274: 'appointmentId'
+[2024-12-07T18:25:12.321+0000] {extract.py:59} ERROR - Error processing city_id 275: 'appointmentId'
+[2024-12-07T18:25:12.322+0000] {extract.py:59} ERROR - Error processing city_id 287: 'appointmentId'
+[2024-12-07T18:25:12.323+0000] {extract.py:59} ERROR - Error processing city_id 258: 'appointmentId'
+[2024-12-07T18:25:12.324+0000] {extract.py:59} ERROR - Error processing city_id 281: 'appointmentId'
+[2024-12-07T18:25:12.325+0000] {extract.py:59} ERROR - Error processing city_id 296: 'appointmentId'
+[2024-12-07T18:25:12.326+0000] {extract.py:59} ERROR - Error processing city_id 271: 'appointmentId'
+[2024-12-07T18:25:12.327+0000] {extract.py:59} ERROR - Error processing city_id 278: 'appointmentId'
+[2024-12-07T18:25:12.329+0000] {extract.py:59} ERROR - Error processing city_id 276: 'appointmentId'
+[2024-12-07T18:25:12.408+0000] {extract.py:59} ERROR - Error processing city_id 268: 'appointmentId'
+[2024-12-07T18:25:12.419+0000] {extract.py:59} ERROR - Error processing city_id 286: 'appointmentId'
+[2024-12-07T18:25:12.426+0000] {extract.py:198} INFO - Total appointment IDs fetched: 101
+[2024-12-07T18:25:12.427+0000] {extract.py:201} INFO - Starting Stage 2: Fetching car details
+[2024-12-07T18:25:12.433+0000] {extract.py:66} INFO - Currently Fetching: 13210836788
+[2024-12-07T18:25:12.438+0000] {extract.py:66} INFO - Currently Fetching: 13987280767
+[2024-12-07T18:25:12.440+0000] {extract.py:66} INFO - Currently Fetching: 13214586709
+[2024-12-07T18:25:12.443+0000] {extract.py:66} INFO - Currently Fetching: 13218985762
+[2024-12-07T18:25:12.444+0000] {extract.py:66} INFO - Currently Fetching: 13955185764
+[2024-12-07T18:25:12.451+0000] {extract.py:66} INFO - Currently Fetching: 13209232780
+[2024-12-07T18:25:12.467+0000] {extract.py:66} INFO - Currently Fetching: 13214482748
+[2024-12-07T18:25:12.470+0000] {extract.py:66} INFO - Currently Fetching: 13933136758
+[2024-12-07T18:25:12.479+0000] {extract.py:66} INFO - Currently Fetching: 13299033725
+[2024-12-07T18:25:12.486+0000] {extract.py:66} INFO - Currently Fetching: 13297527716
+[2024-12-07T18:25:12.503+0000] {extract.py:66} INFO - Currently Fetching: 13296538787
+[2024-12-07T18:25:12.507+0000] {extract.py:66} INFO - Currently Fetching: 13296439742
+[2024-12-07T18:25:12.508+0000] {extract.py:66} INFO - Currently Fetching: 13296322794
+[2024-12-07T18:25:12.510+0000] {extract.py:66} INFO - Currently Fetching: 13296223776
+[2024-12-07T18:25:12.514+0000] {extract.py:66} INFO - Currently Fetching: 13294728773
+[2024-12-07T18:25:12.521+0000] {extract.py:66} INFO - Currently Fetching: 13293536762
+[2024-12-07T18:25:12.534+0000] {extract.py:66} INFO - Currently Fetching: 13287731709
+[2024-12-07T18:25:12.542+0000] {extract.py:66} INFO - Currently Fetching: 13285638765
+[2024-12-07T18:25:12.624+0000] {extract.py:66} INFO - Currently Fetching: 13282939765
+[2024-12-07T18:25:12.630+0000] {extract.py:66} INFO - Currently Fetching: 13281232741
+[2024-12-07T18:25:12.658+0000] {extract.py:66} INFO - Currently Fetching: 13280221772
+[2024-12-07T18:25:12.684+0000] {extract.py:66} INFO - Currently Fetching: 13279235704
+[2024-12-07T18:25:12.798+0000] {extract.py:66} INFO - Currently Fetching: 13278832768
+[2024-12-07T18:25:12.857+0000] {extract.py:66} INFO - Currently Fetching: 13278729713
+[2024-12-07T18:25:12.933+0000] {extract.py:66} INFO - Currently Fetching: 13277834709
+[2024-12-07T18:25:12.976+0000] {extract.py:66} INFO - Currently Fetching: 13276028777
+[2024-12-07T18:25:13.045+0000] {extract.py:66} INFO - Currently Fetching: 13275333705
+[2024-12-07T18:25:13.184+0000] {extract.py:66} INFO - Currently Fetching: 13274526797
+[2024-12-07T18:25:13.228+0000] {extract.py:66} INFO - Currently Fetching: 13273923798
+[2024-12-07T18:25:13.248+0000] {extract.py:66} INFO - Currently Fetching: 13271930745
+[2024-12-07T18:25:13.407+0000] {extract.py:66} INFO - Currently Fetching: 13269838707
+[2024-12-07T18:25:13.524+0000] {extract.py:66} INFO - Currently Fetching: 13269133747
+[2024-12-07T18:25:13.591+0000] {extract.py:66} INFO - Currently Fetching: 13268339747
+[2024-12-07T18:25:13.668+0000] {extract.py:66} INFO - Currently Fetching: 13268036721
+[2024-12-07T18:25:13.772+0000] {extract.py:66} INFO - Currently Fetching: 13265838723
+[2024-12-07T18:25:13.788+0000] {extract.py:66} INFO - Currently Fetching: 13265637744
+[2024-12-07T18:25:13.878+0000] {extract.py:66} INFO - Currently Fetching: 13264429779
+[2024-12-07T18:25:13.893+0000] {extract.py:66} INFO - Currently Fetching: 13263334748
+[2024-12-07T18:25:13.971+0000] {extract.py:66} INFO - Currently Fetching: 13259139704
+[2024-12-07T18:25:14.088+0000] {extract.py:66} INFO - Currently Fetching: 13258921794
+[2024-12-07T18:25:14.184+0000] {extract.py:66} INFO - Currently Fetching: 13256923715
+[2024-12-07T18:25:14.272+0000] {extract.py:66} INFO - Currently Fetching: 13256835749
+[2024-12-07T18:25:14.427+0000] {extract.py:66} INFO - Currently Fetching: 13256426798
+[2024-12-07T18:25:14.105+0000] {extract.py:66} INFO - Currently Fetching: 13258731726
+[2024-12-07T18:25:14.436+0000] {extract.py:66} INFO - Currently Fetching: 13256035735
+[2024-12-07T18:25:14.476+0000] {extract.py:66} INFO - Currently Fetching: 13255639707
+[2024-12-07T18:25:14.669+0000] {extract.py:66} INFO - Currently Fetching: 13255025715
+[2024-12-07T18:25:25.796+0000] {extract.py:66} INFO - Currently Fetching: 13252332702
+[2024-12-07T18:25:25.806+0000] {extract.py:66} INFO - Currently Fetching: 13249332749
+[2024-12-07T18:25:25.877+0000] {extract.py:66} INFO - Currently Fetching: 13245923791
+[2024-12-07T18:25:25.925+0000] {extract.py:66} INFO - Currently Fetching: 13243431721
+[2024-12-07T18:25:25.956+0000] {extract.py:66} INFO - Currently Fetching: 13243022757
+[2024-12-07T18:25:26.142+0000] {extract.py:66} INFO - Currently Fetching: 13242629713
+[2024-12-07T18:25:26.158+0000] {extract.py:66} INFO - Currently Fetching: 13242133766
+[2024-12-07T18:25:26.259+0000] {extract.py:66} INFO - Currently Fetching: 13238234723
+[2024-12-07T18:25:26.297+0000] {extract.py:66} INFO - Currently Fetching: 13237623715
+[2024-12-07T18:25:26.797+0000] {extract.py:66} INFO - Currently Fetching: 13237424779
+[2024-12-07T18:25:26.846+0000] {extract.py:66} INFO - Currently Fetching: 13236924796
+[2024-12-07T18:25:26.964+0000] {extract.py:66} INFO - Currently Fetching: 13234527711
+[2024-12-07T18:25:27.023+0000] {extract.py:66} INFO - Currently Fetching: 13233130725
+[2024-12-07T18:25:26.959+0000] {extract.py:66} INFO - Currently Fetching: 13234724794
+[2024-12-07T18:25:27.847+0000] {extract.py:66} INFO - Currently Fetching: 13232827793
+[2024-12-07T18:25:28.185+0000] {extract.py:66} INFO - Currently Fetching: 13232623791
+[2024-12-07T18:25:28.590+0000] {extract.py:66} INFO - Currently Fetching: 13231431737
+[2024-12-07T18:25:28.786+0000] {extract.py:66} INFO - Currently Fetching: 13230730732
+[2024-12-07T18:25:28.823+0000] {extract.py:66} INFO - Currently Fetching: 13227230761
+[2024-12-07T18:25:29.131+0000] {extract.py:66} INFO - Currently Fetching: 13226037747
+[2024-12-07T18:25:29.196+0000] {extract.py:66} INFO - Currently Fetching: 13221939745
+[2024-12-07T18:25:29.473+0000] {extract.py:66} INFO - Currently Fetching: 13221524756
+[2024-12-07T18:25:29.529+0000] {extract.py:66} INFO - Currently Fetching: 13220139708
+[2024-12-07T18:25:29.542+0000] {extract.py:66} INFO - Currently Fetching: 13218334749
+[2024-12-07T18:25:29.627+0000] {extract.py:66} INFO - Currently Fetching: 13218026759
+[2024-12-07T18:25:29.697+0000] {extract.py:66} INFO - Currently Fetching: 13217938702
+[2024-12-07T18:25:29.846+0000] {extract.py:66} INFO - Currently Fetching: 13215532703
+[2024-12-07T18:25:30.036+0000] {extract.py:66} INFO - Currently Fetching: 13215330706
+[2024-12-07T18:25:30.051+0000] {extract.py:66} INFO - Currently Fetching: 13213832764
+[2024-12-07T18:25:30.119+0000] {extract.py:66} INFO - Currently Fetching: 13213432722
+[2024-12-07T18:25:30.165+0000] {extract.py:66} INFO - Currently Fetching: 13212931769
+[2024-12-07T18:25:30.266+0000] {extract.py:66} INFO - Currently Fetching: 13212828791
+[2024-12-07T18:25:30.550+0000] {extract.py:66} INFO - Currently Fetching: 13211733721
+[2024-12-07T18:25:30.595+0000] {extract.py:66} INFO - Currently Fetching: 13209233722
+[2024-12-07T18:25:30.896+0000] {extract.py:66} INFO - Currently Fetching: 13206533737
+[2024-12-07T18:25:31.116+0000] {extract.py:66} INFO - Currently Fetching: 13205937743
+[2024-12-07T18:25:31.198+0000] {extract.py:66} INFO - Currently Fetching: 13205537745
+[2024-12-07T18:25:33.756+0000] {extract.py:66} INFO - Currently Fetching: 13205425774
+[2024-12-07T18:25:34.087+0000] {extract.py:66} INFO - Currently Fetching: 13202524756
+[2024-12-07T18:25:34.190+0000] {extract.py:66} INFO - Currently Fetching: 13201933702
+[2024-12-07T18:25:37.040+0000] {extract.py:66} INFO - Currently Fetching: 13201420712
+[2024-12-07T18:25:38.718+0000] {extract.py:66} INFO - Currently Fetching: 10001531709
+[2024-12-07T18:25:41.229+0000] {extract.py:66} INFO - Currently Fetching: 13270439736
+[2024-12-07T18:25:43.562+0000] {extract.py:66} INFO - Currently Fetching: 13287985723
+[2024-12-07T18:25:45.843+0000] {extract.py:66} INFO - Currently Fetching: 13245331799
+[2024-12-07T18:25:46.334+0000] {extract.py:66} INFO - Currently Fetching: 13901138791
+[2024-12-07T18:25:46.399+0000] {extract.py:66} INFO - Currently Fetching: 13284430742
+[2024-12-07T18:25:46.447+0000] {extract.py:66} INFO - Currently Fetching: 13258626792
+[2024-12-07T18:25:46.598+0000] {extract.py:66} INFO - Currently Fetching: 13250223776
+[2024-12-07T18:25:46.699+0000] {extract.py:66} INFO - Currently Fetching: 13237131741
+[2024-12-07T18:25:47.157+0000] {extract.py:66} INFO - Currently Fetching: 13232633740
+[2024-12-07T18:25:47.423+0000] {extract.py:66} INFO - Currently Fetching: 13230024717
+[2024-12-07T18:25:47.439+0000] {extract.py:66} INFO - Currently Fetching: 13220332741
+[2024-12-07T18:32:12.689+0000] {extract.py:66} INFO - Currently Fetching: 13214132726
+[2024-12-07T18:38:48.861+0000] {extract.py:210} INFO - Attempting to save Excel file
+[2024-12-07T18:39:00.009+0000] {extract.py:212} INFO - Data saved to /app/output/cars24_raw_data.xlsx
+[2024-12-07T18:39:00.226+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-07T18:39:01.370+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T18:39:01.379+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=cars24_etl_pipeline, task_id=extract_stage, run_id=manual__2024-12-07T18:24:29.417481+00:00, execution_date=20241207T182429, start_date=20241207T182505, end_date=20241207T183901
+[2024-12-07T18:39:01.588+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T18:39:01.590+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T18:39:01.594+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline queued_at:2024-12-07 18:24:29.506926+00:00
+[2024-12-07T18:39:01.595+0000] {logging_mixin.py:190} INFO - Task hostname:bc0ae7fc4eec operator:PythonOperator
+[2024-12-07T18:39:02.294+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T18:39:04.177+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics
+[2024-12-07T18:39:05.012+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T18:39:05.227+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

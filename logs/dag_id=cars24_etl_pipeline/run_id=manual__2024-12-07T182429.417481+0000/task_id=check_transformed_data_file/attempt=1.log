@@ -1,0 +1,31 @@
+[2024-12-07T18:44:56.761+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T18:44:56.793+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.check_transformed_data_file manual__2024-12-07T18:24:29.417481+00:00 [queued]>
+[2024-12-07T18:44:56.811+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.check_transformed_data_file manual__2024-12-07T18:24:29.417481+00:00 [queued]>
+[2024-12-07T18:44:56.812+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T18:44:56.850+0000] {taskinstance.py:2889} INFO - Executing <Task(FileSensor): check_transformed_data_file> on 2024-12-07 18:24:29.417481+00:00
+[2024-12-07T18:44:56.907+0000] {standard_task_runner.py:72} INFO - Started process 951 to run task
+[2024-12-07T18:44:56.918+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'check_transformed_data_file', 'manual__2024-12-07T18:24:29.417481+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmphnsel_15']
+[2024-12-07T18:44:56.923+0000] {standard_task_runner.py:105} INFO - Job 13: Subtask check_transformed_data_file
+[2024-12-07T18:44:57.072+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.check_transformed_data_file manual__2024-12-07T18:24:29.417481+00:00 [running]> on host bc0ae7fc4eec
+[2024-12-07T18:44:57.284+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='check_transformed_data_file' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T18:24:29.417481+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T18:24:29.417481+00:00'
+[2024-12-07T18:44:57.291+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T18:44:57.292+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T18:44:57.294+0000] {logging_mixin.py:190} INFO - Current task name:check_transformed_data_file state:running start_date:2024-12-07 18:44:56.794074+00:00
+[2024-12-07T18:44:57.295+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-07T18:44:57.296+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T18:44:57.298+0000] {baseoperator.py:416} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2024-12-07T18:44:57.313+0000] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2024-12-07T18:44:57.314+0000] {filesystem.py:109} INFO - Poking for file /app/output/cars24_transformed_data.xlsx
+[2024-12-07T18:44:57.318+0000] {filesystem.py:113} INFO - Found File /app/output/cars24_transformed_data.xlsx last modified: 20241207184413
+[2024-12-07T18:44:57.320+0000] {base.py:336} INFO - Success criteria met. Exiting.
+[2024-12-07T18:44:57.324+0000] {filesystem.py:109} INFO - Poking for file /app/output/cars24_transformed_data.xlsx
+[2024-12-07T18:44:57.331+0000] {filesystem.py:113} INFO - Found File /app/output/cars24_transformed_data.xlsx last modified: 20241207184413
+[2024-12-07T18:44:57.342+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T18:44:57.344+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=cars24_etl_pipeline, task_id=check_transformed_data_file, run_id=manual__2024-12-07T18:24:29.417481+00:00, execution_date=20241207T182429, start_date=20241207T184456, end_date=20241207T184457
+[2024-12-07T18:44:57.380+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-07T18:44:57.381+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-07T18:44:57.382+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline queued_at:2024-12-07 18:24:29.506926+00:00
+[2024-12-07T18:44:57.382+0000] {logging_mixin.py:190} INFO - Task hostname:bc0ae7fc4eec operator:FileSensor
+[2024-12-07T18:44:57.416+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T18:44:57.446+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T18:44:57.448+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

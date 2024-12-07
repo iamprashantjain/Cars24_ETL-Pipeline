@@ -8,9 +8,9 @@ from collections import defaultdict
 from exception.exception import customexception
 from logger.logging import logging
 
-#configuration
-start_city_id=100
-end_city_id=300
+#scraping configuration
+start_city_id=1
+end_city_id=100000
 max_workers=100
 
 # Stage 1: Fetch appointment IDs for each city concurrently
@@ -204,7 +204,7 @@ def run_extract_stage_1_and_2(start_city_id=start_city_id, end_city_id=end_city_
     return final_df
 
 #function to be called in dag script
-def execute_pipeline(start_city_id=start_city_id, end_city_id=end_city_id, max_workers=max_workers, output_path='/app/output/cars24_final_output.xlsx'):
+def execute_pipeline(start_city_id=start_city_id, end_city_id=end_city_id, max_workers=max_workers, output_path='/app/output/cars24_raw_data.xlsx'):
     logging.info("Starting extract stage 1 and 2")
     final_df = run_extract_stage_1_and_2(start_city_id, end_city_id, max_workers)
     logging.info("Attempting to save Excel file")

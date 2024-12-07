@@ -1,0 +1,108 @@
+[2024-12-07T17:09:22.706+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T17:09:22.763+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cars24_etl_pipeline.transform_stage manual__2024-12-07T16:58:25.252048+00:00 [queued]>
+[2024-12-07T17:09:22.800+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cars24_etl_pipeline.transform_stage manual__2024-12-07T16:58:25.252048+00:00 [queued]>
+[2024-12-07T17:09:22.801+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 4
+[2024-12-07T17:09:22.876+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_stage> on 2024-12-07 16:58:25.252048+00:00
+[2024-12-07T17:09:23.369+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cars24_etl_pipeline', 'transform_stage', 'manual__2024-12-07T16:58:25.252048+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpdwvu17dr']
+[2024-12-07T17:09:22.933+0000] {standard_task_runner.py:72} INFO - Started process 68632 to run task
+[2024-12-07T17:09:23.401+0000] {standard_task_runner.py:105} INFO - Job 6: Subtask transform_stage
+[2024-12-07T17:09:24.666+0000] {task_command.py:467} INFO - Running <TaskInstance: cars24_etl_pipeline.transform_stage manual__2024-12-07T16:58:25.252048+00:00 [running]> on host 98e62141e0b8
+[2024-12-07T17:09:26.350+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cars24_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform_stage' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T16:58:25.252048+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T16:58:25.252048+00:00'
+[2024-12-07T17:09:26.484+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T17:09:26.489+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T17:09:26.500+0000] {logging_mixin.py:190} INFO - Current task name:transform_stage state:running start_date:2024-12-07 17:09:22.765386+00:00
+[2024-12-07T17:09:26.507+0000] {logging_mixin.py:190} INFO - Dag name:cars24_etl_pipeline and current dag run status:running
+[2024-12-07T17:09:26.536+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T17:09:26.560+0000] {etl_dag.py:89} INFO - Starting Transformation Stage
+[2024-12-07T17:09:26.577+0000] {transform.py:11} INFO - Starting data transformation
+[2024-12-07T17:09:26.588+0000] {transform.py:18} INFO - Reading raw data from /app/input/cars24_raw_data.xlsx
+[2024-12-07T17:09:26.713+0000] {transform.py:116} ERROR - An error occurred during data transformation: [Errno 2] No such file or directory: '/app/input/cars24_raw_data.xlsx'
+[2024-12-07T17:09:26.732+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/etl_dag.py", line 90, in run_transform_task
+    perform_transformation()
+  File "/app/scripts/transform.py", line 19, in perform_transformation
+    raw_data = pd.read_excel(input_file)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 478, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1496, in __init__
+    ext = inspect_excel_format(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1371, in inspect_excel_format
+    with get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/app/input/cars24_raw_data.xlsx'
+[2024-12-07T17:09:27.287+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-07T17:09:27.291+0000] {logging_mixin.py:190} INFO - Task start:2024-12-07 17:09:22.765386+00:00 end:2024-12-07 17:09:27.231764+00:00 duration:4.466378
+[2024-12-07T17:09:27.298+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): transform_stage> dag:<DAG: cars24_etl_pipeline> dagrun:<DagRun cars24_etl_pipeline @ 2024-12-07 16:58:25.252048+00:00: manual__2024-12-07T16:58:25.252048+00:00, state:running, queued_at: 2024-12-07 16:58:25.288929+00:00. externally triggered: True>
+[2024-12-07T17:09:27.301+0000] {logging_mixin.py:190} INFO - Failure caused by [Errno 2] No such file or directory: '/app/input/cars24_raw_data.xlsx'
+[2024-12-07T17:09:27.304+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=cars24_etl_pipeline, task_id=transform_stage, run_id=manual__2024-12-07T16:58:25.252048+00:00, execution_date=20241207T165825, start_date=20241207T170922, end_date=20241207T170927
+[2024-12-07T17:09:27.423+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T17:09:27.425+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 6 for task transform_stage ([Errno 2] No such file or directory: '/app/input/cars24_raw_data.xlsx'; 68632)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/usr/local/lib/python3.8/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/app/airflow/dags/etl_dag.py", line 90, in run_transform_task
+    perform_transformation()
+  File "/app/scripts/transform.py", line 19, in perform_transformation
+    raw_data = pd.read_excel(input_file)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 478, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1496, in __init__
+    ext = inspect_excel_format(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1371, in inspect_excel_format
+    with get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/app/input/cars24_raw_data.xlsx'
+[2024-12-07T17:09:27.517+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-07T17:09:27.654+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T17:09:27.659+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
