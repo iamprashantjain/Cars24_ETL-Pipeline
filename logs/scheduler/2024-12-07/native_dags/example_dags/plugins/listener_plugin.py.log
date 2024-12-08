@@ -3338,3 +3338,13 @@
 [2024-12-07T18:57:13.492+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:57:13.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-12-07T18:57:13.510+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-12-07T18:57:13.562+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.116 seconds
+[2024-12-07T19:01:31.466+0000] {processor.py:186} INFO - Started process (PID=1461) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:01:31.557+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T19:01:31.649+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:01:31.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:01:31.740+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:01:31.824+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.382 seconds
+[2024-12-07T19:04:26.964+0000] {processor.py:186} INFO - Started process (PID=1569) to work on /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:04:26.988+0000] {processor.py:914} INFO - Processing file /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-07T19:04:26.993+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:04:26.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:04:27.009+0000] {processor.py:927} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-12-07T19:04:27.071+0000] {processor.py:208} INFO - Processing /usr/local/lib/python3.8/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.141 seconds

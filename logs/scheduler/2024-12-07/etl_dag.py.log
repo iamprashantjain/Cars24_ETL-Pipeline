@@ -188,3 +188,38 @@
 [2024-12-07T18:56:25.691+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:56:25.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-07T18:56:25.709+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:56:25.709+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
 [2024-12-07T18:56:25.738+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 0.270 seconds
+[2024-12-07T18:57:23.923+0000] {processor.py:186} INFO - Started process (PID=1342) to work on /app/airflow/dags/etl_dag.py
+[2024-12-07T18:57:24.034+0000] {processor.py:914} INFO - Processing file /app/airflow/dags/etl_dag.py for tasks to queue
+[2024-12-07T18:57:24.067+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:57:24.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /app/airflow/dags/etl_dag.py
+[2024-12-07T18:57:25.128+0000] {processor.py:925} INFO - DAG(s) 'cars24_etl_pipeline' retrieved from /app/airflow/dags/etl_dag.py
+[2024-12-07T18:57:25.158+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:57:25.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T18:57:25.187+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:57:25.186+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
+[2024-12-07T18:57:25.282+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 1.417 seconds
+[2024-12-07T18:59:38.970+0000] {processor.py:186} INFO - Started process (PID=1397) to work on /app/airflow/dags/etl_dag.py
+[2024-12-07T18:59:38.973+0000] {processor.py:914} INFO - Processing file /app/airflow/dags/etl_dag.py for tasks to queue
+[2024-12-07T18:59:38.976+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:59:38.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /app/airflow/dags/etl_dag.py
+[2024-12-07T18:59:39.575+0000] {processor.py:925} INFO - DAG(s) 'cars24_etl_pipeline' retrieved from /app/airflow/dags/etl_dag.py
+[2024-12-07T18:59:39.700+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:59:39.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T18:59:39.748+0000] {logging_mixin.py:190} INFO - [2024-12-07T18:59:39.747+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
+[2024-12-07T18:59:39.818+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 0.877 seconds
+[2024-12-07T19:01:36.987+0000] {processor.py:186} INFO - Started process (PID=1466) to work on /app/airflow/dags/etl_dag.py
+[2024-12-07T19:01:36.990+0000] {processor.py:914} INFO - Processing file /app/airflow/dags/etl_dag.py for tasks to queue
+[2024-12-07T19:01:36.992+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:01:36.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:01:37.719+0000] {processor.py:925} INFO - DAG(s) 'cars24_etl_pipeline' retrieved from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:01:38.737+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:01:38.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:01:38.817+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:01:38.816+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
+[2024-12-07T19:01:39.303+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 2.328 seconds
+[2024-12-07T19:03:10.298+0000] {processor.py:186} INFO - Started process (PID=1525) to work on /app/airflow/dags/etl_dag.py
+[2024-12-07T19:03:10.300+0000] {processor.py:914} INFO - Processing file /app/airflow/dags/etl_dag.py for tasks to queue
+[2024-12-07T19:03:10.302+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:03:10.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:03:10.513+0000] {processor.py:925} INFO - DAG(s) 'cars24_etl_pipeline' retrieved from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:03:10.535+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:03:10.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:03:10.555+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:03:10.554+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
+[2024-12-07T19:03:10.594+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 0.305 seconds
+[2024-12-07T19:04:43.194+0000] {processor.py:186} INFO - Started process (PID=1574) to work on /app/airflow/dags/etl_dag.py
+[2024-12-07T19:04:43.488+0000] {processor.py:914} INFO - Processing file /app/airflow/dags/etl_dag.py for tasks to queue
+[2024-12-07T19:04:43.493+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:04:43.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:04:51.162+0000] {processor.py:925} INFO - DAG(s) 'cars24_etl_pipeline' retrieved from /app/airflow/dags/etl_dag.py
+[2024-12-07T19:04:52.372+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:04:52.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:04:55.301+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:04:55.300+0000] {dag.py:4180} INFO - Setting next_dagrun for cars24_etl_pipeline to None, run_after=None
+[2024-12-07T19:04:58.175+0000] {processor.py:208} INFO - Processing /app/airflow/dags/etl_dag.py took 15.015 seconds

@@ -1,32 +1,11 @@
-- This is a ETL Pipeline project of my Initial `Used car Price Prediction tool`.
-- I'll be extracting data on a regular interval "Weekly/Monthly", saving it to cloud/dbs/locally using Docker & Airflow
-- This Data will be used on my currently running project to perform `Continous Training`
-- Folder Structure looks like below:
+- An ETL pipeline (Extract, Transform, Load) is a structured process used to gather data from multiple sources, clean and format it, and load it into a central system like a database or data warehouse. It ensures data is accurate, consistent, and ready for analysis or reporting, automating workflows to handle large volumes of data efficiently.
 
+- This ETL Pipeline extracts used car price data from Cars24.com, Transform & Load in a cloud
+- I've used Airflow in a Docker Container to automate the Process.
 
-cars24_data_etl_pipeline/
-├── dags/
-│   └── cars24_etl_pipeline.py  #airflow DAG file
-├── scripts/
-│   ├── cars24_api_extract1.py
-│   ├── cars24_api_extract2.py
-│   ├── cars24_api_transform.py
-│   ├── cars24_api_load.py
-├── output/  <-- Folder where files will be saved and read by scripts
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
+![alt text](image.png)
 
-
-**Remove All Images**
-`docker images`
-`for /f %i in ('docker images -q') do docker rmi -f %i`
-
-- docker system prune -a --volumes
-- docker system prune
-
-
+- docker compose down
 - docker-compose build --no-cache && docker-compose up
-
-
 - docker exec -it cars24_etl_pipeline bash
+- docker system prune -a
