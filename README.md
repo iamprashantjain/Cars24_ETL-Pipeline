@@ -6,6 +6,6 @@
 ![alt text](image.png)
 
 - docker compose down
-- docker-compose build --no-cache && docker-compose up
+- docker-compose build --no-cache && docker-compose up : To run this ETL pipeline
 - docker exec -it cars24_etl_pipeline bash
 - docker system prune -a
